@@ -27,22 +27,29 @@ main {
 header {
     background: red;
     width:100%;
-    height:100px;
+    overflow:hidden;
 }
-#name {
+#logo {
     background: blue;
-    width: 30%;
-    float: left
+    width: 35%;
+    float: left;
 }
-#name img {
+#myPic {
+    margin: 5% 0 5% 5%;
     width:20%;
     float:left;
+}
+#myPic img {
+    width:100%;
     border-radius: 100px;
-    margin: 5% 5% 5% 5%;
+}
+#name {
+    float:right;
+    width: 70%;
+    margin: 5% 3% 5% 0;
 }
 #name h1 {
-    font-size: 20px;
-    margin-top:5%;
+    font-size: 1.5em;
 }
 nav {
     background: green;
@@ -58,16 +65,63 @@ nav {
 }
 .box {
     width: 100%;
-    height: 300px;
+    padding-bottom:5%;
 }
-#intro {
+/************** start #intro *******************/
+#intro-outter{
     background-color:blueviolet; 
+    padding-top:5%;
 }
+#intro-inner {
+    background-color: chartreuse;
+    margin: 0 auto;
+    max-width: 700px;
+    width:60%;
+    padding:2%;
+}
+/************** start #hire-me *******************/
 #hire-me {
     background-color:azure; 
+    margin: 0 auto;
+    max-width: 700px;
+    width:60%;
+    overflow:hidden;
 }
-#skills {
-    background-color:cadetblue; 
+#hire-me a {
+    text-decoration: none;
+}
+.hire-me {
+    width:30%;
+    margin-top:5%;
+    margin-bottom:5%;
+    padding-top:.5%;
+    padding-bottom:.5%;
+    font-size: 1.3em;
+    text-align: center;
+    border:solid;
+}
+.hire-me-left {
+    float:left;
+    margin-left:15%;
+}
+.hire-me-right {
+    float:right;
+    margin-right:15%;
+}
+/************** end #hire-me *******************/
+/************** end #intro *******************/
+
+/************** start #skills *******************/
+#skills-outter {
+    background-color:cadetblue;
+    padding-top:5%;
+}
+#skills-inner {
+    background-color: chartreuse;
+    margin:0 auto;
+    max-width: 700px;
+    width:60%;
+    padding:2%;
 }
 #projects {
     background-color:coral; 
