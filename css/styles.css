@@ -123,9 +123,48 @@ nav {
     width:60%;
     padding:2%;
 }
+/************** end #skills *******************/
+
+/************** start #projects *******************/
+
 #projects {
     background-color:coral; 
+    overflow:hidden;
 }
+#project-box {
+    margin:0 auto;
+    background-color: red;
+    overflow:hidden;
+    max-width: 800px;
+    width:90%;
+}
+.project-left {
+    float:left;
+    width:43%;
+    padding:3%;
+}
+.project-right {
+    float: right;
+    width:45%;
+    padding:3%;
+}
+#project-box img {
+    width:100%;
+}
+/************** end #projects *******************/
+
 #contact {
     background-color:darkseagreen; 
 }
+#contact-box {
+    background-color:bisque; 
+    width:50%;
+    float:right;
+}
+#form {
+    display:block;
+}
+
+
+
+
