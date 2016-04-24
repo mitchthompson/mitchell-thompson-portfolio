@@ -20,8 +20,8 @@ a img {
 main {
     background-color:beige;
     width:95%;
-    height:1800px;
     margin:0 auto;
+    overflow: auto;
 }
 
 header {
@@ -144,7 +144,6 @@ nav {
     padding:3%;
 }
 .project-right {
-    float: right;
     width:45%;
     padding:3%;
 }
@@ -155,14 +154,20 @@ nav {
 
 #contact {
     background-color:darkseagreen; 
+    overflow: auto;
 }
-#contact-box {
+#social {
+    float:left;
+    width:25%;
+    height:300px;
+    background-color:blueviolet;
+}
+#form-box {
     background-color:bisque; 
-    width:50%;
+    width:55%;
     float:right;
 }
 #form {
-    display:block;
 }
 
 

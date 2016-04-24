@@ -45,23 +45,26 @@
 </div><!-- end project-box -->
 </div><!--end div projects -->
     
-<div id="contact">
-<div id="contact-box">
-<form>
+<div id="contact"  class="box">
+<div id="social"></div>
+
+<div id="form-box">
+<form action="formhandler.php" method="post" id="form" >
+<fieldset>
 <legend>Contact Mitchell</legend>
-<label>First Name</label>
-    <input class="input" type="text">
-<label>Last Name</label>
-    <input type="text">
-<label>Company Name</label>
-    <input type="text">
-<label>Email</label>
-    <input type="text">
-<label>Phone</label>
-    <input type="text">
-<input type="submit">
+Name <br />
+    <input type="text" name="name"> <br />
+Email <br />
+    <input type="text" name="email"> <br />
+Phone 
+    <br /><input type="text" name="phone" id="phone" > <br /><br />
+Comments or Questions: <br />
+<textarea name="comments" rows="10" id="comments"></textarea>
+<input type="submit" name="submit" value="Submit" id="submit" >
+
+</fieldset>
 </form>
-    </div><!-- end div contact-box -->
+</div><!-- end div form-box -->
     
 </div><!--end div contact -->
 </div><!--end div boxes -->
