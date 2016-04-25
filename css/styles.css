@@ -21,6 +21,7 @@ main {
     background-color:beige;
     width:95%;
     margin:0 auto; 
+    height:2100px;
 }
 
 header {
@@ -155,16 +156,24 @@ nav {
 /************** start #contact *******************/
 #contact {
     background-color:darkseagreen; 
+    padding-top:5%;
+}
+#contact-box {
+    overflow: hidden;
+    margin:0 auto;
+    background-color: darkolivegreen;
+    max-width: 800px;
+    width:90%;
 }
 #social {
-    float:left;
-    width:25%;
-    height:300px;
+    width:40%;
+    height:150px;
     background-color:blueviolet;
+    float:left;
 }
 #form-box {
     background-color:bisque; 
-    width:55%;
+    width:50%;
     float:right;
 }
 #form {
@@ -172,12 +181,15 @@ nav {
 /************** end #contact *******************/
 
 /************** start footer *******************/
+
+/*
 footer {
     width:100%;
     height:75px;
     background-color: aliceblue;
     clear:both;
 }
+*/
 
 
 
