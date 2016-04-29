@@ -21,9 +21,8 @@ main {
     background-color:beige;
     width:95%;
     margin:0 auto; 
-    height:2100px;
 }
-
+/************** start header *******************/
 header {
     background: red;
     width:100%;
@@ -51,16 +50,30 @@ header {
 #name h1 {
     font-size: 1.5em;
 }
+/************** start nav *******************/
 nav {
     background: green;
     height: 50px;
-    width:35%;
+    width:50%;
     float: right;
 }
+nav li {
+    display: inline;
+    line-height: 50px;
+}
+nav a {
+    text-decoration: none;
+    color:black;
+    font-size: 1.5em;
+    margin-right: 4%;
+}
+nav a:first-child {
+    margin-left: 5%;
+}
+/************** end nav *******************/
 #boxes {
     background-color:aqua;
-    width:90%;
-    height:1500px;
+    width:95%;
     margin:0 auto;
 }
 .box {
@@ -71,6 +84,7 @@ nav {
 #intro-outter{
     background-color:blueviolet; 
     padding-top:5%;
+    height:800px;
 }
 #intro-inner {
     background-color: chartreuse;
@@ -78,6 +92,9 @@ nav {
     max-width: 700px;
     width:60%;
     padding:2%;
+}
+#intro-inner p {
+    font-size: 1.2em;
 }
 /************** start #hire-me *******************/
 #hire-me {
@@ -115,6 +132,7 @@ nav {
 #skills-outter {
     background-color:cadetblue;
     padding-top:5%;
+    height:1000px;
 }
 #skills-inner {
     background-color: chartreuse;
@@ -130,6 +148,7 @@ nav {
 #projects {
     background-color:darksalmon;
     padding-top:5%;
+    height:1000px;
 }
 #project-box {
     overflow: hidden;
@@ -157,6 +176,7 @@ nav {
 #contact {
     background-color:darkseagreen; 
     padding-top:5%;
+    height:1000px;
 }
 #contact-box {
     overflow: hidden;
