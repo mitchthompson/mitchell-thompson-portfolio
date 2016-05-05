@@ -20,13 +20,16 @@ a img {
 main {
     background-color:beige;
     width:95%;
-    margin:0 auto; 
+    margin:0 auto;
+    margin-top:150px;
 }
 /************** start header *******************/
 header {
     background: red;
     width:100%;
     overflow:hidden;
+    position: fixed;
+    margin-top:-150px;
 }
 #logo {
     background: blue;
@@ -73,7 +76,7 @@ nav a:first-child {
 /************** end nav *******************/
 #boxes {
     background-color:aqua;
-    width:95%;
+    width:100%;
     margin:0 auto;
 }
 .box {
@@ -187,9 +190,13 @@ nav a:first-child {
 }
 #social {
     width:40%;
-    height:150px;
     background-color:blueviolet;
     float:left;
+}
+#social img {
+    width:20%;
+}
+#social li {
 }
 #form-box {
     background-color:bisque; 
@@ -200,16 +207,6 @@ nav a:first-child {
 }
 /************** end #contact *******************/
 
-/************** start footer *******************/
-
-/*
-footer {
-    width:100%;
-    height:75px;
-    background-color: aliceblue;
-    clear:both;
-}
-*/
 
 
 
