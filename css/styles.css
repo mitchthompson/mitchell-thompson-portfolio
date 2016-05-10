@@ -18,33 +18,25 @@ a img {
 }
 
 main {
-    background-color:beige;
     width:95%;
     margin:0 auto;
-    margin-top:150px;
+/*    margin-top:130px;*/
 }
 /************** start header *******************/
+/**
 header {
-    background: red;
-    width:100%;
+    width:95%;
     overflow:hidden;
     position: fixed;
-    margin-top:-150px;
+    margin-top:-130px;
 }
+
 #logo {
-    background: blue;
-    width: 35%;
+    width: 30%;
     float: left;
 }
-#myPic {
-    margin: 5% 0 5% 5%;
-    width:20%;
-    float:left;
-}
-#myPic img {
-    width:100%;
-    border-radius: 100px;
-}
+*/
+/**
 #name {
     float:right;
     width: 70%;
@@ -53,44 +45,46 @@ header {
 #name h1 {
     font-size: 1.5em;
 }
+*/
 /************** start nav *******************/
+/**
 nav {
-    background: green;
     height: 50px;
-    width:50%;
     float: right;
 }
 nav li {
     display: inline;
     line-height: 50px;
+    font-size: 1.5em;
 }
 nav a {
     text-decoration: none;
-    color:black;
-    font-size: 1.5em;
+    color:#c9c9c9;
     margin-right: 4%;
 }
 nav a:first-child {
     margin-left: 5%;
 }
+*/
 /************** end nav *******************/
 #boxes {
-    background-color:aqua;
     width:100%;
     margin:0 auto;
 }
 .box {
     width: 100%;
     padding-bottom:5%;
+    background-color: #c9c9c9;
+}
+.box-inner {
+    background-color: #9ad3de;
 }
 /************** start #intro *******************/
-#intro-outter{
-    background-color:blueviolet; 
+#intro-outter{ 
     padding-top:5%;
     height:800px;
 }
 #intro-inner {
-    background-color: chartreuse;
     margin: 0 auto;
     max-width: 700px;
     width:60%;
@@ -101,11 +95,11 @@ nav a:first-child {
 }
 /************** start #hire-me *******************/
 #hire-me {
-    background-color:azure; 
     margin: 0 auto;
     max-width: 700px;
     width:60%;
     overflow:hidden;
+
 }
 #hire-me a {
     text-decoration: none;
@@ -133,12 +127,10 @@ nav a:first-child {
 
 /************** start #skills *******************/
 #skills-outter {
-    background-color:cadetblue;
     padding-top:5%;
     height:1000px;
 }
 #skills-inner {
-    background-color: chartreuse;
     margin:0 auto;
     max-width: 700px;
     width:60%;
@@ -149,14 +141,12 @@ nav a:first-child {
 /************** start #projects *******************/
 
 #projects {
-    background-color:darksalmon;
     padding-top:5%;
     height:1000px;
 }
 #project-box {
     overflow: hidden;
     margin:0 auto;
-    background-color: red;
     max-width: 800px;
     width:90%;
 }
@@ -177,20 +167,17 @@ nav a:first-child {
 
 /************** start #contact *******************/
 #contact {
-    background-color:darkseagreen; 
     padding-top:5%;
     height:1000px;
 }
 #contact-box {
     overflow: hidden;
     margin:0 auto;
-    background-color: darkolivegreen;
     max-width: 800px;
     width:90%;
 }
 #social {
     width:40%;
-    background-color:blueviolet;
     float:left;
 }
 #social img {
@@ -199,7 +186,6 @@ nav a:first-child {
 #social li {
 }
 #form-box {
-    background-color:bisque; 
     width:50%;
     float:right;
 }
