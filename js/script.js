@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $(".box").not(".box-1").hide();
+    $("nav a.box-1").css('text-decoration', 'underline');
     
     $("nav a.box-1").click(function(event) {
         $("nav a").not(".box-1").removeAttr( 'style' );
@@ -29,20 +30,5 @@ $(document).ready(function(){
         $(".box-4").show(1000);
     });
   
-    
-    
-
-    
-    
-    
-    
-    //add css to nav on mouseover then removes on mouseleave
-//    $("nav a").mouseover(function(){
-//        $(this).css(
-//            'color', 'blue');
-//    });
-//    $("nav a").mouseleave(function(){
-//        $(this).removeAttr( 'style' );
-//    });
 });
 

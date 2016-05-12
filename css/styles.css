@@ -16,182 +16,20 @@ body, body * {
 a img {
 	border: 0;
 }
-
-main {
-    width:95%;
-    margin:0 auto;
-/*    margin-top:130px;*/
-}
-/************** start header *******************/
-/**
-header {
-    width:95%;
-    overflow:hidden;
-    position: fixed;
-    margin-top:-130px;
-}
-
-#logo {
-    width: 30%;
-    float: left;
-}
-*/
-/**
-#name {
-    float:right;
-    width: 70%;
-    margin: 5% 3% 5% 0;
-}
-#name h1 {
-    font-size: 1.5em;
-}
-*/
-/************** start nav *******************/
-/**
-nav {
-    height: 50px;
-    float: right;
-}
-nav li {
-    display: inline;
-    line-height: 50px;
-    font-size: 1.5em;
-}
-nav a {
-    text-decoration: none;
-    color:#c9c9c9;
-    margin-right: 4%;
-}
-nav a:first-child {
-    margin-left: 5%;
-}
-*/
-/************** end nav *******************/
-#boxes {
-    width:100%;
-    margin:0 auto;
+.navbar {
+    border-radius: 0;
+    border: 0;
 }
 .box {
-    width: 100%;
-    padding-bottom:5%;
     background-color: #c9c9c9;
+    min-height:800px;
 }
-.box-inner {
-    background-color: #9ad3de;
-}
-/************** start #intro *******************/
-#intro-outter{ 
-    padding-top:5%;
-    height:800px;
-}
-#intro-inner {
-    margin: 0 auto;
-    max-width: 700px;
-    width:60%;
-    padding:2%;
-}
-#intro-inner p {
-    font-size: 1.2em;
-}
-/************** start #hire-me *******************/
-#hire-me {
-    margin: 0 auto;
-    max-width: 700px;
-    width:60%;
-    overflow:hidden;
-
-}
-#hire-me a {
-    text-decoration: none;
-}
-.hire-me {
-    width:30%;
-    margin-top:5%;
-    margin-bottom:5%;
-    padding-top:.5%;
-    padding-bottom:.5%;
-    font-size: 1.3em;
-    text-align: center;
-    border:solid;
-}
-.hire-me-left {
-    float:left;
-    margin-left:15%;
-}
-.hire-me-right {
-    float:right;
-    margin-right:15%;
-}
-/************** end #hire-me *******************/
-/************** end #intro *******************/
-
-/************** start #skills *******************/
-#skills-outter {
-    padding-top:5%;
-    height:1000px;
-}
-#skills-inner {
-    margin:0 auto;
-    max-width: 700px;
-    width:60%;
-    padding:2%;
-}
-/************** end #skills *******************/
-
-/************** start #projects *******************/
-
-#projects {
-    padding-top:5%;
-    height:1000px;
-}
-#project-box {
-    overflow: hidden;
-    margin:0 auto;
-    max-width: 800px;
-    width:90%;
-}
-.project-left {
-    float:left;
-    width:40%;
-    padding:3%;
-}
-.project-right {
-    float:right;
-    width:40%;
-    padding:3%;
-}
-#project-box img {
-    width:100%;
-}
-/************** end #projects *******************/
-
-/************** start #contact *******************/
-#contact {
-    padding-top:5%;
-    height:1000px;
-}
-#contact-box {
-    overflow: hidden;
-    margin:0 auto;
-    max-width: 800px;
-    width:90%;
-}
-#social {
-    width:40%;
-    float:left;
-}
-#social img {
+.connect ul img{
     width:20%;
 }
-#social li {
-}
-#form-box {
-    width:50%;
-    float:right;
-}
-#form {
-}
-/************** end #contact *******************/
+
+
+
 
 
 
