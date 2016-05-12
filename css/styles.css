@@ -20,10 +20,23 @@ a img {
     border-radius: 0;
     border: 0;
 }
-.box {
-    background-color: #c9c9c9;
-    min-height:800px;
+.navbar-custom {
+    background-color: #3f51b5;
+    min-height:75px;
 }
+.navbar.navbar-default.navbar-custom li a {
+    color:white;
+}
+.box {
+}
+.hire {
+    background-color: #3f51b5;
+}
+.hire a {
+    color:white;
+}
+
+
 .connect ul img{
     width:20%;
 }
