@@ -29,5 +29,16 @@ $(document).ready(function(){
         $(".box-4").show(1000);
     });
     
+    
+   //trick to get footer sticked to bottom of the page
+//   var docHeight = $(window).height();
+//   var footerHeight = $('footer').height();
+//   var footerTop = $('footer').position().top + footerHeight;
+//
+//   if (footerTop < docHeight) {
+//    $('footer').css('margin-top', 10+ (docHeight - footerTop) + 'px');
+//   }
+//    
+    
 });
 
