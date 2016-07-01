@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mitchell Thompson - Web Developer</title>
+    <title>Mitchell Thompson | Web Developer</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Sarpanch' rel='stylesheet' type='text/css'>
@@ -25,14 +25,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Mitchell Thompson</a>        
+                    <a class="navbar-brand" href="#">
+                        Mitchell Thompson
+                     </a>        
                 </div><!--navbar-header -->
                 <div class="navbar-collapse collaspe collapse"  id="myNav">               
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="box-1" href="#box-1">About</a></li>     
                         <li><a class="box-2" href="#box-2">Skills</a></li> 
-                        <li><a class="box-1" href="#box-1">Projects</a></li> 
-                        <li><a class="box-4" href="#box-">Contact</a></li>   
+                        <li><a class="box-3" href="#box-3">Projects</a></li> 
+                        <li><a class="box-4" href="#box-4">Contact</a></li>   
                     </ul> 
                 </div><!-- collaspe navbar-collapse -->
             </div><!--container-fluid-->

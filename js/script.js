@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $("#boxes").hide();
     $(".box").not(".box-1").hide();
     $("nav a.box-1").css('text-decoration', 'underline');
     
@@ -7,38 +8,38 @@ $(document).ready(function(){
     $("a.box-1").click(function(event) {
         $("nav a").not(".box-1").removeAttr( 'style' );
         $(this).css('text-decoration', 'underline');
-        $(".box").not(".box-1").hide(1000);
-        $(".box-1").show(1000);
+        //$(".box").not(".box-1").fadeOut(1000);
+        $("#boxes").fadeOut(800);
     });
     $("a.box-2").click(function(event) {  
         $("nav a").not(".box-2").removeAttr( 'style' );
         $(this).css('text-decoration', 'underline');
-        $(".box").not(".box-2").hide(1000);
-        $(".box-2").show(1000);
+        $(".box").not(".box-2").hide();
+        $("#boxes").show();
+        $(".box-2").slideDown("slow");
     });
      $("a.box-3").click(function(event) { 
         $("nav a").not(".box-3").removeAttr( 'style' );
         $(this).css('text-decoration', 'underline');
-        $(".box").not(".box-3").hide(1000);
-        $(".box-3").show(1000);
+        $(".box").not(".box-3").hide();
+        $("#boxes").show();
+        $(".box-3").slideDown("slow");
     });
     $("a.box-4").click(function(event) {
         $("nav a").not(".box-4").removeAttr( 'style' );
         $(this).css('text-decoration', 'underline');     
-        $(".box").not(".box-4").hide(1000);
-        $(".box-4").show(1000);
+        $(".box").not(".box-4").hide();
+        $("#boxes").show();
+        $(".box-4").slideDown("slow");
+    });
+    $("a.box-5").click(function(event) {
+        $("nav a").not(".box-1").removeAttr( 'style' );;
+        $(this).css('text-decoration', 'underline');     
+        $(".box").not(".box-5").hide();
+        $("#boxes").show();
+        $(".box-5").slideDown("slow");
     });
     
-    
-   //trick to get footer sticked to bottom of the page
-//   var docHeight = $(window).height();
-//   var footerHeight = $('footer').height();
-//   var footerTop = $('footer').position().top + footerHeight;
-//
-//   if (footerTop < docHeight) {
-//    $('footer').css('margin-top', 10+ (docHeight - footerTop) + 'px');
-//   }
-//    
     
 });
 

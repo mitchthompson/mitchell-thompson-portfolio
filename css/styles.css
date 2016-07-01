@@ -11,13 +11,16 @@ body, body * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 a img {
 	border: 0;
 }
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
 p {
-    font-size: 1.1em;
+    font-size: 1em;
     font-family: 'Roboto', sans-serif;
     color:#2C3E50;
 }
@@ -26,6 +29,7 @@ p {
 .navbar {
     border-radius: 0;
     border: 0;
+
 }
 .navbar-custom {
     background-color: #2C3E50;
@@ -60,21 +64,34 @@ a.navbar-brand {
 .box {
     max-width:900px;
     border-radius: 3px;
+     padding-bottom: 20px;
 }
 .box a {
     color: #E74C3C;
 }
-
 .jumbotron {
     margin-top: -20px;
-    background-color:#ECF0F1;
+    margin-bottom: -20px;
+    background-color:white;
+}
+.boxes {
+    background-color:#2980B9;
 }
 
 
 /** about  **/
+.about {
+    background-color: #ECF0F1;
+    padding:4%;
+    border: solid 2px #E74C3C;
+}
 a.hire {
     background-color: #2C3E50;
     margin-top:6%;
+    border-radius: 0;
+}
+a.hire:hover, a.hire:visited, a.hire:link, a.hire:active {
+    text-decoration: none;
 }
 .contact ul img{
     width:20%;
@@ -84,30 +101,33 @@ a.hire {
 .progress {
     position: relative;
 }
+.progress-bar {
+    background-color: #2C3E50;
+}
 .progress span {
     position: absolute;
     display: block;
     width: 100%;
  }
-
+/** Projects  **/
+.project {
+    margin-bottom: 30px;
+}
 /** Contact  **/
-
 .self {
     margin-bottom:10px;
     display:block;
     width: 45%;
 }
-.fa {
+ul.social {
+    margin-left:3px;
     margin-top:5px;
-    padding-right:10px;
+}
+.social li {
+    display:inline;
 }
 @media (max-width: 460px) {
-    .self {
-    width: 100%;
-}
-    .fa {
-    margin-top:5px;
-}
+
 }
 @media (min-width:790px and max-width:990px) {
     .fa {
@@ -117,13 +137,22 @@ a.hire {
 
 /** footer  **/
 
-footer li {
+footer li, footer a {
     font-family: 'Sarpanch', sans-serif;
     height:40px;
     line-height: 40px;
+    color:#E74C3C;
 }
 footer {
-    background-color: #ECF0F1;
+    background-color: #2C3E50;
+}
+@media (max-width: 460px) {
+    footer li {
+        font-size: .72em;
+    }
+    footer a {
+        font-size: 1em;
+    }
 }
 
 
