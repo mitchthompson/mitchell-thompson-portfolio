@@ -17,6 +17,7 @@ $(document).ready(function(){
         $(".box").not(".box-2").hide();
         $("#boxes").show();
         $(".box-2").slideDown("slow");
+        $('html, body').animate({scrollTop: $("div.box-2").offset().top}, 1000);
     });
      $("a.box-3").click(function(event) { 
         $("nav a").not(".box-3").removeAttr( 'style' );
@@ -24,6 +25,7 @@ $(document).ready(function(){
         $(".box").not(".box-3").hide();
         $("#boxes").show();
         $(".box-3").slideDown("slow");
+        $('html, body').animate({scrollTop: $("div.box-3").offset().top}, 1000);
     });
     $("a.box-4").click(function(event) {
         $("nav a").not(".box-4").removeAttr( 'style' );
@@ -31,6 +33,7 @@ $(document).ready(function(){
         $(".box").not(".box-4").hide();
         $("#boxes").show();
         $(".box-4").slideDown("slow");
+        $('html, body').animate({scrollTop: $("div.box-4").offset().top}, 1000);
     });
     $("a.box-5").click(function(event) {
         $("nav a").not(".box-1").removeAttr( 'style' );;
@@ -38,6 +41,7 @@ $(document).ready(function(){
         $(".box").not(".box-5").hide();
         $("#boxes").show();
         $(".box-5").slideDown("slow");
+        $('html, body').animate({scrollTop: $("div.box-5").offset().top}, 1000);
     });
     
     

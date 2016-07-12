@@ -6,12 +6,42 @@ Version: 1.0
 @Author: Mitchell Thompson
 @Author URI: http://www.mitchlthompson.com
 */
-
+html {
+    font-size: 1em;
+}
 body, body * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
     line-height: 1.4;
+    font-weight: 400;
+    line-height: 1.45;
+    
+}
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  font-family: 'Sarpanch', sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 5.063em;
+}
+
+h2 {font-size: 3.375em;}
+
+h3 {font-size: 2.25em;}
+
+h4 {
+    font-size: 1.5em;
+}
+
+small, .font_small {
+    font-size: 0.667em;
 }
 a img {
 	border: 0;
@@ -21,7 +51,7 @@ a:hover, a:visited, a:link, a:active {
 }
 p {
     font-size: 1em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'GEORGIA', 'Helvetica', sans-serif;
     color:#2C3E50;
 }
 
@@ -64,7 +94,6 @@ a.navbar-brand {
 .box {
     max-width:900px;
     border-radius: 3px;
-     padding-bottom: 20px;
 }
 .box a {
     color: #E74C3C;
@@ -76,13 +105,17 @@ a.navbar-brand {
 }
 .boxes {
     background-color:#2980B9;
+    padding-bottom: 100px;
 }
-
+.back {
+    color: #E74C3C;
+    margin-top: 75px;
+}
 
 /** about  **/
 .about {
     background-color: #ECF0F1;
-    padding:4%;
+    padding:3%;
     border: solid 2px #E74C3C;
 }
 a.hire {
@@ -98,20 +131,54 @@ a.hire:hover, a.hire:visited, a.hire:link, a.hire:active {
 }
 
 /** Skills  **/
-.progress {
-    position: relative;
+.skills h2 {
+    margin-top: -10px;
 }
-.progress-bar {
-    background-color: #2C3E50;
+ul.skill_list {
+    margin-top: 20px;
+    margin-bottom: 20px
 }
-.progress span {
-    position: absolute;
-    display: block;
-    width: 100%;
- }
+ul.skill_list li {
+    display:inline;
+    margin-right: 25px;
+    font-family: 'Sarpanch', sans-serif;
+}
+@media (max-width: 460px) {
+    .skills h2 {
+    text-align: left;
+    font-size: 3em;
+    }
+    .skills p {
+    text-align: left;
+    font-size: 1.2em;
+    }
+    ul.skill_list li {
+    display:block;
+    text-align: left;
+    
+    }
+}
 /** Projects  **/
 .project {
     margin-bottom: 30px;
+}
+.modal-content {
+    background-color:#ECF0F1;
+}
+.project .img-responsive {
+    margin: 0 auto;
+}
+.modal-content p {
+}
+.modal p {
+    text-align: left;
+}
+.live-project {
+    margin-top:10px;
+}
+.live-project {
+    background-color:#2C3E50;
+    color:white;
 }
 /** Contact  **/
 .self {
@@ -125,6 +192,9 @@ ul.social {
 }
 .social li {
     display:inline;
+}
+.social a:visited {
+    color: #E74C3C;
 }
 @media (max-width: 460px) {
 
@@ -145,14 +215,6 @@ footer li, footer a {
 }
 footer {
     background-color: #2C3E50;
-}
-@media (max-width: 460px) {
-    footer li {
-        font-size: .72em;
-    }
-    footer a {
-        font-size: 1em;
-    }
 }
 
 
