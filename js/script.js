@@ -43,6 +43,17 @@ $(document).ready(function(){
         $(".box-5").slideDown("slow");
         $('html, body').animate({scrollTop: $("div.box-5").offset().top}, 1000);
     });
+<<<<<<< Updated upstream
+=======
+    $("a.box-6").click(function(event) {
+        $("nav a").not(".box-1").removeAttr( 'style' );;
+        $(this).css('text-decoration', 'underline');     
+        $(".box").not(".box-6").hide();
+        $("#boxes").show();
+        $(".box-6").slideDown("slow");
+        $('html, body').animate({scrollTop: $("div.box-6").offset().top}, 1000);
+    });
+>>>>>>> Stashed changes
     
     
 });

@@ -16,6 +16,10 @@ body, body * {
     line-height: 1.4;
     font-weight: 400;
     line-height: 1.45;
+<<<<<<< Updated upstream
+=======
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+>>>>>>> Stashed changes
     
 }
 p {margin-bottom: 1.3em;}
@@ -24,7 +28,11 @@ h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
+<<<<<<< Updated upstream
   font-family: 'Sarpanch', sans-serif;
+=======
+/*  font-family: 'Sarpanch', sans-serif;*/
+>>>>>>> Stashed changes
 }
 
 h1 {
@@ -51,11 +59,23 @@ a:hover, a:visited, a:link, a:active {
 }
 p {
     font-size: 1em;
+<<<<<<< Updated upstream
     font-family: 'GEORGIA', 'Helvetica', sans-serif;
+=======
+/*    font-family: 'GEORGIA', 'Helvetica', sans-serif;*/
+>>>>>>> Stashed changes
     color:#2C3E50;
 }
 
 /** header/nav **/
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+.navbar-nav li {
+      float: none;
+      display: inline-block;
+}
 .navbar {
     border-radius: 0;
     border: 0;
@@ -63,15 +83,20 @@ p {
 }
 .navbar-custom {
     background-color: #2C3E50;
+<<<<<<< Updated upstream
 }
 @media (min-width: 780px) {
     .navbar-custom {
     height:80px; 
     padding-top:10px; 
     }
+=======
+>>>>>>> Stashed changes
 }
+
 .navbar.navbar-default.navbar-custom li a {
     color:#E74C3C;
+<<<<<<< Updated upstream
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     background-color: #2C3E50;
@@ -86,14 +111,32 @@ a.navbar-brand {
 .navbar ul {
     font-family: 'Sarpanch', sans-serif;
     font-size: 1.5em;
+=======
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 1.5em;
+}
+@media (max-width: 450px) {
+    .navbar.navbar-default.navbar-custom li a {
+        font-size: 1.1em;
+        margin-left:.8%;
+    }
+    .header {
+        height:60px;
+    }
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: #2C3E50;
+>>>>>>> Stashed changes
 }
 .header {
     max-width: 1200px;
+    height:55px;
 }
 
 .box {
     max-width:900px;
     border-radius: 3px;
+<<<<<<< Updated upstream
 }
 .box a {
     color: #E74C3C;
@@ -126,6 +169,45 @@ a.hire {
 a.hire:hover, a.hire:visited, a.hire:link, a.hire:active {
     text-decoration: none;
 }
+=======
+}
+.box a {
+    color: #E74C3C;
+}
+.jumbotron {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    background-color:white;
+}
+.boxes {
+    background-color:#2980B9;
+/*    padding-bottom: 100px;*/
+}
+.back {
+    color: #E74C3C;
+    margin-top: 75px;
+}
+
+/** about  **/
+.intro {
+    padding-top: 25px;
+}
+.about {
+    padding:3%;
+}
+.about h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+a.hire {
+    background-color: #2C3E50;
+    margin-top:6%;
+    border-radius: 0;
+}
+a.hire:hover, a.hire:visited, a.hire:link, a.hire:active {
+    text-decoration: none;
+}
+>>>>>>> Stashed changes
 .contact ul img{
     width:20%;
 }
@@ -141,7 +223,11 @@ ul.skill_list {
 ul.skill_list li {
     display:inline;
     margin-right: 25px;
+<<<<<<< Updated upstream
     font-family: 'Sarpanch', sans-serif;
+=======
+/*    font-family: 'Sarpanch', sans-serif;*/
+>>>>>>> Stashed changes
 }
 @media (max-width: 460px) {
     .skills h2 {
@@ -188,15 +274,38 @@ ul.skill_list li {
 }
 ul.social {
     margin-left:3px;
+<<<<<<< Updated upstream
     margin-top:5px;
 }
 .social li {
     display:inline;
+=======
+    margin-top:75px;
+}
+.social li {
+    display:inline;
+    margin-right: 5px;
+>>>>>>> Stashed changes
 }
 .social a:visited {
     color: #E74C3C;
 }
 @media (max-width: 460px) {
+<<<<<<< Updated upstream
+=======
+
+}
+@media (min-width:790px and max-width:990px) {
+    .fa {
+    padding-right:30px;
+}
+}
+/** hire-me  **/
+.hire-me ul li a {
+    font-size:1.8em;
+    color: black;
+}
+>>>>>>> Stashed changes
 
 }
 @media (min-width:790px and max-width:990px) {
@@ -207,14 +316,25 @@ ul.social {
 
 /** footer  **/
 
+<<<<<<< Updated upstream
 footer li, footer a {
     font-family: 'Sarpanch', sans-serif;
+=======
+/** footer  **/
+
+footer li, footer a {
+/*    font-family: 'Sarpanch', sans-serif;*/
+>>>>>>> Stashed changes
     height:40px;
     line-height: 40px;
     color:#E74C3C;
 }
 footer {
+<<<<<<< Updated upstream
     background-color: #2C3E50;
+=======
+   background-color: #2C3E50;
+>>>>>>> Stashed changes
 }
 
 

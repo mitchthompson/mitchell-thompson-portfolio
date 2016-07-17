@@ -4,12 +4,21 @@
         <div class="container box-1 about">
             <div class="row">
                 <div class="col-md-12">
+<<<<<<< Updated upstream
                     <p>Hello! My name is Mitchell Thompson, and I am Seattle-based Web Developer. I have a diverse set of skills, and I enjoy building everything from small business sites to rich dynamic web apps. You can check out some of my recent <a class="box-3" href="#box-3">projects</a> to see my <a class="box-2" href="#box-2">skills</a> at work. Feel free to <a class="box-4" href="#box-4">contact</a> me if you have any questions or just want chat about what we can do together.</p> 
+=======
+                    <h2>Hello.</h2>
+                    <p>My name is Mitchell Thompson, and I am Seattle-based Web Developer. I have a diverse set of skills, and I enjoy building everything from small business sites to rich dynamic web apps. You can check out some of my recent <a class="box-3" href="#box-3">projects</a> to see my <a class="box-2" href="#box-2">skills</a> at work. Feel free to <a class="box-4" href="#box-4">contact</a> me if you have any questions or just want chat about what we can do together.</p> 
+>>>>>>> Stashed changes
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-sm-4 col-xs-6">
+<<<<<<< Updated upstream
                     <a href="#" class="btn btn-primary center-block hire" role="button">I'm looking to hire   <span class="glyphicon glyphicon-chevron-right"></span></a>
+=======
+                    <a href="#" class="box-6 btn btn-primary center-block hire" role="button">I'm looking to hire   <span class="glyphicon glyphicon-chevron-right"></span></a>
+>>>>>>> Stashed changes
                 </div>
                 <div class="col-lg-4 col-sm-4 col-xs-6">
                     <a href="#" class="box-5 btn btn-primary center-block hire" role="button">I need a website  <span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -20,7 +29,11 @@
 <div id="boxes" class="jumbotron boxes">
     <div class="container box box-2">
         <div class="row">
+<<<<<<< Updated upstream
             <div class="skills col-xs-10 col-xs-offset-1 text-center">
+=======
+            <div class="skills col-xs-10">
+>>>>>>> Stashed changes
                 <h2>WHAT I CAN DO</h2>
                 <ul class="skill_list list-unstyled">
                     <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> HTML/CSS</i></span></li>
@@ -198,6 +211,19 @@
                     </form>   
             </div><!--contact-form -->   
         </div><!--row -->
+<<<<<<< Updated upstream
+=======
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <ul class="social list-unstyled">
+                    <li><a href="https://github.com/mitchthompson" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.facebook.com/mitchell.thompson" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>             
+                    <li><a href="https://twitter.com/mitche" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa fa-linkedin-square fa-2x disabled" aria-hidden="true"></i></a>
+                </ul> 
+            </div><!--col-sm-12 -->
+        </div><!--row -->
+>>>>>>> Stashed changes
     </div><!--container-->
     
     <div class="container box box-5">
@@ -250,10 +276,35 @@
             </div><!--contact-form -->   
         </div><!--row -->
     </div><!--container-->
+<<<<<<< Updated upstream
+=======
+    
+    <div class="container box box-6">
+        <div class="row hire-me">  
+            <div class="col-sm-5">
+                <ul class="list-unstyled">
+                    <li><a class="box-3" href="#box-3">Recent Projects</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="http://github.com/mitchthompson">Github</a></li>
+                    <li><a href="#">Download Resume</a></li>
+                </ul>
+            </div><!--col-sm-5-->
+            
+            <div class="col-sm-7">
+                <img class="img-responsive" src="images/Resume.png"> 
+            </div><!--col-sm-7-->
+                
+        </div><!--row -->
+    </div><!--container-->
+    
+>>>>>>> Stashed changes
     <div class="container">
         <div class="row text-center">
             <a href="#top"><i class="back fa fa-arrow-up fa-2x" aria-hidden="true"></i>  <i class="back fa fa-arrow-up fa-2x" aria-hidden="true"></i></a>
         </div><!--row -->
     </div><!--container-->
 </div><!--jumbotron-->    
+<<<<<<< Updated upstream
 <?php include 'includes/footer.php' ?> 
+=======
+>>>>>>> Stashed changes
