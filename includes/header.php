@@ -19,31 +19,7 @@
     <script src="js/script.js"></script>
 </head>
 <body>
-<<<<<<< Updated upstream
-    <nav id="top" class="navbar navbar-default navbar-custom" role="navigation">
-            <div class="container-fluid header">
-                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">
-                        Mitchell Thompson
-                     </a>        
-                </div><!--navbar-header -->
-                <div class="navbar-collapse collaspe collapse"  id="myNav">               
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a class="box-1" href="#box-1">About</a></li>     
-                        <li><a class="box-2" href="#box-2">Skills</a></li> 
-                        <li><a class="box-3" href="#box-3">Projects</a></li> 
-                        <li><a class="box-4" href="#box-4">Contact</a></li>   
-                    </ul> 
-                </div><!-- collaspe navbar-collapse -->
-            </div><!--container-fluid-->
-    </nav>
-=======
+
 <nav id="top" class="navbar navbar-default navbar-custom" role="navigation">
     <div class="container header">
        <div class="navbar"  id="myNav">               
@@ -56,5 +32,4 @@
         </div><!-- navbar --> 
     </div><!--container-fluid-->
 </nav>
-    
->>>>>>> Stashed changes
+
