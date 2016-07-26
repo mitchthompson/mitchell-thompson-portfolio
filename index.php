@@ -5,15 +5,15 @@
             <div class="row">
                 <div class="col-md-12">
                     <h2>Hello.</h2>
-                    <p>My name is Mitchell Thompson, and I am Seattle-based Web Developer. I have a diverse set of skills, and I enjoy building everything from small business sites to rich dynamic web apps. You can check out some of my recent <a class="box-3" href="#box-3">projects</a> to see my <a class="box-2" href="#box-2">skills</a> at work. Feel free to <a class="box-4" href="#box-4">contact</a> me if you have any questions or just want chat about what we can do together.</p> 
+                    <p>My name is Mitchell Thompson, and I am Seattle-based Web Developer. I have a diverse set of skills, and I enjoy building everything from small business sites to rich dynamic web apps. I have some of my recent <a class="box-3" href="#box-3">projects</a> available that show my <a class="box-2" href="#box-2">skills</a> in action. Feel free to <a class="box-4" href="#box-4">contact</a> me if you have any questions or just want chat about what we can do together.</p> 
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-sm-4 col-xs-6">
-                    <a href="#" class="box-6 btn btn-primary center-block hire" role="button">I'm looking to hire   <span class="glyphicon glyphicon-chevron-right"></span></a>
+                    <a href="#" class="hire box-6 btn btn-primary center-block" role="button">I'm looking to hire   <span class="glyphicon glyphicon-chevron-right"></span></a>
                 </div>
                 <div class="col-lg-4 col-sm-4 col-xs-6">
-                    <a href="#" class="box-5 btn btn-primary center-block hire" role="button">I need a website  <span class="glyphicon glyphicon-chevron-right"></span></a>
+                    <a href="#" class="hire box-5 btn btn-primary center-block" role="button">I need a website  <span class="glyphicon glyphicon-chevron-right"></span></a>
                 </div>
             </div>
         </div><!--container-->
@@ -21,7 +21,7 @@
 <div id="boxes" class="jumbotron boxes">
     <div class="container box box-2">
         <div class="row">
-            <div class="skills col-xs-10">
+            <div class="skills col-sm-10 col-xs-12">
                 <h2>WHAT I CAN DO</h2>
                 <div class="col-xs-6">
                     <ul class="skill_list list-unstyled">
@@ -39,8 +39,9 @@
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> SQL</i></li>
                     </ul>
                 </div>
-                <p>My skill set is varied, spanning front-end to back-end development. I am adept at designing, developing, and launching websites that incorporate modern styling implementations like responsive and adaptive design. I'm skilled in creating interactive and dynamic web applications using MVC design. I am familiar with Agile methodologies like Scrum, and using tools like Github on collaborative team projects. I can build a website from scratch or build a custom template for use on a Content Management System like Wordpress. I'm savvy working with custom css and designing with frameworks like Bootstrap. Most of all, I'm always eager to try new methods and technologies to build things that are functional and beautiful.</p>
-                
+            </div><!--skills-->
+            <div class="skills col-xs-12">
+                <p>My skill set is varied, spanning front-end to back-end development. I am adept at designing, developing, and launching websites that incorporate modern styling implementations like responsive and adaptive design. I'm skilled in creating interactive and dynamic web applications using MVC design. I am familiar with Agile methodologies like Scrum, and using tools like Github on collaborative team projects. I can build a website from scratch or build a custom template for use on a Content Management System like Wordpress. I'm savvy working with custom css and designing with frameworks like Bootstrap. Most of all, I'm always eager to try new methods and technologies to build things that are functional and beautiful.</p>    
             </div><!--skills-->
             
         </div><!--row -->
@@ -205,22 +206,12 @@
                     </form>   
             </div><!--contact-form -->   
         </div><!--row -->
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <ul class="social list-unstyled">
-                    <li><a href="https://github.com/mitchthompson" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.facebook.com/mitchell.thompson" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>             
-                    <li><a href="https://twitter.com/mitche" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-linkedin-square fa-2x disabled" aria-hidden="true"></i></a>
-                </ul> 
-            </div><!--col-sm-12-->
-        </div><!--row-->
     </div><!--container-->
     
     <div class="container box box-5">
         <div class="row contact">  
             <div class="contact col-sm-4">
-                <p>Let's make something awesome together. I'll just need some basic info to get started.</p>
+                <p>Let's make something awesome together. I'll just need some basic info to get started. </p>
             </div>
             
             <div class="contact-form col-sm-8">
@@ -248,8 +239,8 @@
                           <div class="col-sm-10">
                               <select id="inputReason" class="form-control">
                                   <option value="" disabled selected>New site or redesign?</option>
-                                  <option>This will be a brand new site</option>
-                                  <option>This will be a resdesign of an existing site</option>
+                                  <option>This will be a brand new website</option>
+                                  <option>This will be a resdesign of an existing website</option>
                                   <option>It's complicated..</option>
                                   <option>Other</option>
                               </select>
@@ -287,15 +278,4 @@
     </div><!--container-->
     
 </div><!--jumbotron-->    
-<footer>
-        <div class="container">
-            <div class="back row"> 
-                <ul>     
-                    <li><a href="#top" ><i class="fa fa-arrow-up fa-1x" aria-hidden="true"></i>  TOP | </a></li>
-                    <li><a class="box-2" href="#box-2">Skills</a></li> 
-                    <li><a class="box-3" href="#box-3">Projects</a></li> 
-                    <li><a class="box-4" href="#box-4">Contact</a></li> 
-                </ul>
-            </div><!--row -->
-        </div><!--container-->
-    </footer>
+<?php include 'includes/footer.php' ?>

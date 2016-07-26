@@ -24,8 +24,6 @@ h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
-
-  font-family: 'Sarpanch', sans-serif;
 }
 
 h1 {
@@ -52,7 +50,6 @@ a:hover, a:visited, a:link, a:active {
 }
 p {
     font-size: 1em;
-    font-family: 'GEORGIA', 'Helvetica', sans-serif;
     color:#2C3E50;
 }
 
@@ -72,29 +69,16 @@ p {
 }
 .navbar-custom {
     background-color: #2C3E50;
+    min-height:50px;
 }
 @media (min-width: 780px) {
     .navbar-custom {
-    height:80px; 
-    padding-top:10px; 
     }
 }
-
 .navbar.navbar-default.navbar-custom li a {
-    color:#E74C3C;
-}
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    background-color: #2C3E50;
-}
-a.navbar-brand {
-    font-family: 'Sarpanch', sans-serif;
-    font-size: 2em;
-}
-.navbar-default .navbar-brand {
-    color:#E74C3C;
+    color:white;
 }
 .navbar ul {
-    font-family: 'Sarpanch', sans-serif;
     font-size: 1.5em;
 }
 @media (max-width: 450px) {
@@ -113,80 +97,44 @@ a.navbar-brand {
     max-width: 1200px;
     height:55px;
 }
-
+/** boxes **/
 .box {
     max-width:900px;
     border-radius: 3px;
-    padding:3%;
-}
-.box a {
-/*    color: #2C3E50;*/
+    padding:3% 3% 3% 3%;
 }
 .jumbotron {
-    margin-top: -20px;
-    margin-bottom: -20px;
     background-color:white;
 }
 .boxes {
     border-top: solid 2px #2C3E50;
-    padding-bottom: 25px;
-}
-.back a {
-    color: #2C3E50;
-    font-size: 1.3em;
-}
-.back {
-    margin-top: 65px;
-    margin-left: 15px;
-}
-.back li {
-    list-style: none;
-    display: inline;
-    margin-right: 15px;
 }
 /** about  **/
 .about {
     padding:3%;
+}
+.about a {
+    text-decoration: none !important;;
 }
 a.hire {
     background-color: #2C3E50;
     margin-top:6%;
     border-radius: 0;
+    text-decoration: none !important;
 }
 a.hire:hover, a.hire:visited, a.hire:link, a.hire:active {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 }
 .box a {
-    color: #E74C3C;
+    color: #90D5FD;
 }
-.jumbotron {
-    margin-top: -20px;
-    margin-bottom: -20px;
-    background-color:white;
-}
-
-/** about  **/
 .intro {
     padding-top: 25px;
-}
-.about {
-    padding:3%;
 }
 .about h2 {
     margin-top: 0;
     margin-bottom: 0;
-}
-a.hire {
-    background-color: #2C3E50;
-    margin-top:6%;
-    border-radius: 0;
-}
-a.hire:hover, a.hire:visited, a.hire:link, a.hire:active {
-    text-decoration: none;
-}
-.contact ul img{
-    width:20%;
 }
 
 /** Skills  **/
@@ -198,35 +146,29 @@ ul.skill_list {
     margin-bottom: 20px
 }
 ul.skill_list li {
-/*    display:inline;*/
     margin-right: 25px;
 }
-@media (max-width: 460px) {
+@media (max-width: 560px) {
     .skills h2 {
     text-align: left;
     font-size: 3em;
     }
     .skills p {
     text-align: left;
-    font-size: 1.2em;
+    font-size: 1.1em;
     }
     ul.skill_list li {
-/*    display:block;*/
     text-align: left;
-    
+    font-size: .8em;
+    margin-right: 15px;    
     }
 }
 /** Projects  **/
-.project {
-    margin-bottom: 30px;
-}
 .modal-content {
     background-color:#ECF0F1;
 }
 .project .img-responsive {
     margin: 0 auto;
-}
-.modal-content p {
 }
 .modal p {
     text-align: left;
@@ -244,19 +186,6 @@ ul.skill_list li {
     display:block;
     width: 45%;
 }
-ul.social {
-    margin-top:100px;
-}
-.social li {
-    display:inline;
-    margin-right: 5px;
-}
-.social a:visited {
-    color: #E74C3C;
-}
-@media (max-width: 460px) {
-
-}
 @media (min-width:790px and max-width:990px) {
     .fa {
     padding-right:30px;
@@ -267,7 +196,6 @@ ul.social {
     font-size:1.8em;
     color: black;
 }
-
 }
 @media (min-width:790px and max-width:990px) {
     .fa {
@@ -277,6 +205,22 @@ ul.social {
 /** footer **/
 footer {
     border-top: solid 2px #2C3E50;
+    margin-bottom: 30px;
+    padding-top:15px;
 }
-
+.back a {
+    color: #2C3E50;
+}
+.back {
+    margin-left: 15px;
+}
+.back li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+    font-size: 1.5em;
+}
+.back {
+    font-size: .8em;
+}
 

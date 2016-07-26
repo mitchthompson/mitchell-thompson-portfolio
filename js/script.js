@@ -5,7 +5,7 @@ $(document).ready(function(){
     $("nav a.box-1").css('text-decoration', 'underline');
     
     
-    //show or hide sectiions based on user click in nav
+    //show or hide sectiions based on user click in nav/footer ul
     $("a.box-1").click(function(event) {
         $("nav a").not(".box-1").removeAttr( 'style' );
         $(".back a").not(".box-").removeAttr( 'style' );
@@ -63,5 +63,6 @@ $(document).ready(function(){
         $(".box-6").slideDown("slow");
         $('html, body').animate({scrollTop: $("div.box-6").offset().top}, 1000);
     });
+ 
 });
 
