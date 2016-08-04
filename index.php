@@ -62,14 +62,27 @@
                                 <h3 class="modal-title" id="modalLabel">Purple Pickle</h3>
                             </div><!--modal-header-->
                             <div class="modal-body">
+                                <ul class="list-unstyled">
+                                            <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Wordpress</i></li> 
+                                            <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> HTML</i></span></li>
+                                            <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> CSS</i></span></li>
+                                            <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> PHP</i></li>
+                                            <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Responsive Design</i></li>
+                                        </ul>
                                 <div class="row">
+                                    <div class="col-sm-6 views">
+                                        <button class="desktop-view btn btn-primary btn-md" href="#tablet">Desktop</button>
+                                        <button class="tablet-view btn btn-primary btn-md" href="#tablet">Tablet</button>
+                                        <button class="mobile-view btn btn-primary btn-md" href="#tablet">Mobile</button>
+                                        <img id="desktop" src="images/purplepickle.png"  alt="Purple Pickle Desktop View">
+                                        <img id="tablet" src="images/purplepickle_tablet.png"  alt="Purple Pickle Tablet View">
+                                        <img id="mobile" src="images/purplepickle_mobile.png"  alt="Purple Pickle Mobile View">
+                                    </div><!--views-->
                                     <div class="col-sm-6">
-                                        <img src="images/purplepickle.png"> <br>
-                                        <a class="live-project btn btn-primary" href="http://www.mitchlthompson.com/purplepickle/" target="_blank">Live Demo</a>
-                                    </div>
-                                    <div class="col-sm-6">
+                        
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat quam enim, in dictum urna ultrices gravida. Aliquam tellus est, ullamcorper in dapibus quis, posuere ut tortor. Donec tincidunt sed magna quis feugiat. Integer gravida augue nec imperdiet pulvinar. Praesent vitae gravida mi. </p>
-                                        <p>Wordpress, HTML, CSS, PHP, Responsive Design</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat quam enim, in dictum urna ultrices gravida. Aliquam tellus est, ullamcorper in dapibus quis, posuere ut tortor. Donec tincidunt sed magna quis feugiat. Integer gravida augue nec imperdiet pulvinar. Praesent vitae gravida mi. </p>
+                                        <a class="live-project btn btn-primary" href="http://www.mitchlthompson.com/purplepickle/" target="_blank">Live Demo</a>
                                     </div>
                                 </div>
                             </div><!--modal-body-->
@@ -209,53 +222,61 @@
     </div><!--container-->
     
     <div class="container box box-5">
-        <div class="row contact">  
-            <div class="contact col-sm-4">
-                <p>Let's make something awesome together. I'll just need some basic info to get started. </p>
-            </div>
-            
-            <div class="contact-form col-sm-8">
-                    <form role="form" class='form-horizontal'>
-                      <div class="form-group">
-                        <label for="name" class="col-sm-2">Name</label>
-                        <div class="col-sm-10">
-                            <input type="name" class="form-control" id="inputName">
-                        </div>
+        <div class="row contact-website"> 
+            <div class="col-md-offset-2 col-md-8">
+                <p><span>Interested in working together?</span> Fill out the Project Exploration form with the basics about your project. I will respond within a few business days. Until then, check out some of my recent <a class="box-3" href="#box-3">projects</a>.</p>
+                <form role="form" class='form-horizontal'>
+                  <div class="form-group">
+                    <label for="name" class="col-sm-2">Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputName">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputEmail" class="col-sm-2">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputWebsite" class="col-sm-2">Website</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputWebsite">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputTimeline" class="col-sm-2">Timeline</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputTimeline">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputBudget" class="col-sm-2">Budget</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputBudget">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="inputReason" class="col-sm-2">Reason</label>
+                      <div class="col-sm-10">
+                          <select id="inputReason" class="form-control">
+                              <option value="" disabled selected>New site or redesign?</option>
+                              <option>This will be a brand new website</option>
+                              <option>This will be a resdesign of an existing website</option>
+                              <option>It's complicated..</option>
+                              <option>Other</option>
+                          </select>
                       </div>
-                      <div class="form-group">
-                        <label for="inputEmail" class="col-sm-2">Email</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="inputEmail">
-                        </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="inputComments" class="col-sm-2">About</label>
+                      <div class="col-sm-10">
+                        <textarea name="comments" id="inputComments" class="form-control" rows="3" placeholder="Tell me about your project..."></textarea>
                       </div>
-                        <div class="form-group">
-                        <label for="inputPhone" class="col-sm-2">Phone</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="inputPhone">
-                        </div>
-                      </div>
-                      <div class="form-group">
-                          <label for="inputReason" class="col-sm-2">Reason</label>
-                          <div class="col-sm-10">
-                              <select id="inputReason" class="form-control">
-                                  <option value="" disabled selected>New site or redesign?</option>
-                                  <option>This will be a brand new website</option>
-                                  <option>This will be a resdesign of an existing website</option>
-                                  <option>It's complicated..</option>
-                                  <option>Other</option>
-                              </select>
-                          </div>
-                      </div>
-                      <div class="form-group">
-                          <label for="inputComments" class="col-sm-2">Comments</label>
-                          <div class="col-sm-10">
-                            <textarea name="comments" id="inputComments" class="form-control" rows="3" placeholder="Questions or comments"></textarea>
-                          </div>
-                      </div>
-                          <button type="submit" class="btn btn-default btn-lg pull-right">Submit</button>
-                    </form>
-                      
-            </div><!--contact-form -->   
+                  </div>
+                      <button type="submit" class="btn btn-default btn-lg pull-right">Submit</button>
+                </form>
+            </div><!--col-md-8-->
         </div><!--row -->
     </div><!--container-->  
     

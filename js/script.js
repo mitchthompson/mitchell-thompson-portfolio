@@ -4,7 +4,6 @@ $(document).ready(function(){
     $(".box").not(".box-1").hide();
     $("nav a.box-1").css('text-decoration', 'underline');
     
-    
     //show or hide sectiions based on user click in nav/footer ul
     $("a.box-1").click(function(event) {
         $("nav a").not(".box-1").removeAttr( 'style' );
@@ -62,6 +61,26 @@ $(document).ready(function(){
         $("footer").show();
         $(".box-6").slideDown("slow");
         $('html, body').animate({scrollTop: $("div.box-6").offset().top}, 1000);
+    });
+    
+    
+    $(".modal img").not("#desktop").hide();
+    $(".desktop-view").css("background-color", "#2e6da4")
+    
+    $(".desktop-view").click(function(event) {
+        $(".desktop-view").css("background-color", "#2e6da4")
+        $(".modal img").not("#desktop").hide();
+        $("#desktop").show();
+    });
+    $(".tablet-view").click(function(event) {
+        $(".desktop-view").css("background-color", "#2C3E50")
+        $(".modal img").not("#tablet").hide();
+        $("#tablet").show();
+    });
+    $(".mobile-view").click(function(event) {
+        $(".desktop-view").css("background-color", "#2C3E50")
+        $(".modal img").not("#mobile").hide();
+        $("#mobile").show();
     });
  
 });
