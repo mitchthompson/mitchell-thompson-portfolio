@@ -63,25 +63,25 @@ $(document).ready(function(){
         $('html, body').animate({scrollTop: $("div.box-6").offset().top}, 1000);
     });
     
-    
     $(".modal img").not("#desktop").hide();
-    $(".desktop-view").css("background-color", "#2e6da4")
+    $(".desktop-view").css("background-color", "#2e6da4");
     
     $(".desktop-view").click(function(event) {
-        $(".desktop-view").css("background-color", "#2e6da4")
+        $(".desktop-view").css("background-color", "#2e6da4");
         $(".modal img").not("#desktop").hide();
-        $("#desktop").show();
+        $(".modal #desktop").show();
     });
     $(".tablet-view").click(function(event) {
-        $(".desktop-view").css("background-color", "#2C3E50")
+        $(".desktop-view").css("background-color", "#2C3E50");
         $(".modal img").not("#tablet").hide();
-        $("#tablet").show();
+        $(".modal #tablet").show();
     });
     $(".mobile-view").click(function(event) {
-        $(".desktop-view").css("background-color", "#2C3E50")
+        $(".desktop-view").css("background-color", "#2C3E50");
         $(".modal img").not("#mobile").hide();
-        $("#mobile").show();
+        $(".modal #mobile").show();
     });
+
  
 });
 

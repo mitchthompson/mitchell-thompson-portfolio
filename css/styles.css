@@ -105,6 +105,7 @@ p {
 }
 .jumbotron {
     background-color:white;
+    padding-top: 20px;
 }
 .boxes {
     border-top: solid 2px #2C3E50;
@@ -169,6 +170,7 @@ ul.skill_list li {
 }
 .project .img-responsive {
     margin: 0 auto;
+    border: 1px solid black;
 }
 .modal p {
     text-align: left;
@@ -182,6 +184,7 @@ ul.skill_list li {
 }
 .modal-body img {
     margin-bottom: 10px;
+    border: 1px solid black;
 }
 .modal-body h4 {
     margin-top:10px;
@@ -222,8 +225,18 @@ ul.skill_list li {
 
 /** hire-me  **/
 .hire-me ul li a {
-    font-size:1.8em;
+    font-size:1.5em;
     color: black;
+}
+ul.resume li {
+    display:inline;
+    margin:5px;
+}
+.hire-me ul li p {
+    font-size:1.5em;
+    color: black;
+    margin-bottom: 2px;
+    text-decoration: underline;
 }
 }
 @media (min-width:790px and max-width:990px) {
@@ -240,16 +253,20 @@ footer {
 .back a {
     color: #2C3E50;
 }
-.back {
-    margin-left: 15px;
-}
 .back li {
     list-style: none;
     display: inline;
     margin-right: 15px;
     font-size: 1.5em;
 }
-.back {
-    font-size: .8em;
+@media (max-width:992px) {
+    .footer-nav li {
+        display:block;
+    }
 }
-
+@media (max-width:770px) {
+    .back ul {
+        margin-top: 25px;
+        text-align: center;
+    }
+}

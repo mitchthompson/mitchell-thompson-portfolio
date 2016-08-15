@@ -47,136 +47,7 @@
         </div><!--row -->
     </div><!--container-->
     
-    <div class="container box box-3">
-        <div class="row projects text-center">
-            <div class="project col-md-4 col-sm-12">
-                <h3>Purple Pickle</h3>
-                <a data-target="#purple-pickle" data-toggle="modal" data-image="images/purplepickle.png"><img class="img-responsive" src="images/purplepickle.png"></a>
-                <div class="modal fade" id="purple-pickle" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                                <h3 class="modal-title" id="modalLabel">Purple Pickle</h3>
-                            </div><!--modal-header-->
-                            <div class="modal-body">
-                                <ul class="list-unstyled">
-                                            <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Wordpress</i></li> 
-                                            <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> HTML</i></span></li>
-                                            <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> CSS</i></span></li>
-                                            <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> PHP</i></li>
-                                            <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Responsive Design</i></li>
-                                        </ul>
-                                <div class="row">
-                                    <div class="col-sm-6 views">
-                                        <button class="desktop-view btn btn-primary btn-md" href="#tablet">Desktop</button>
-                                        <button class="tablet-view btn btn-primary btn-md" href="#tablet">Tablet</button>
-                                        <button class="mobile-view btn btn-primary btn-md" href="#tablet">Mobile</button>
-                                        <img id="desktop" src="images/purplepickle.png"  alt="Purple Pickle Desktop View">
-                                        <img id="tablet" src="images/purplepickle_tablet.png"  alt="Purple Pickle Tablet View">
-                                        <img id="mobile" src="images/purplepickle_mobile.png"  alt="Purple Pickle Mobile View">
-                                    </div><!--views-->
-                                    <div class="col-sm-6">
-                        
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat quam enim, in dictum urna ultrices gravida. Aliquam tellus est, ullamcorper in dapibus quis, posuere ut tortor. Donec tincidunt sed magna quis feugiat. Integer gravida augue nec imperdiet pulvinar. Praesent vitae gravida mi. </p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat quam enim, in dictum urna ultrices gravida. Aliquam tellus est, ullamcorper in dapibus quis, posuere ut tortor. Donec tincidunt sed magna quis feugiat. Integer gravida augue nec imperdiet pulvinar. Praesent vitae gravida mi. </p>
-                                        <a class="live-project btn btn-primary" href="http://www.mitchlthompson.com/purplepickle/" target="_blank">Live Demo</a>
-                                    </div>
-                                </div>
-                            </div><!--modal-body-->
-                        </div><!--modal-content-->
-                    </div><!--modal-dialog-->
-                </div><!--modal-->
-            </div><!--project-->
-            <div class="project col-md-4 col-sm-12">
-                <h3>Weather Bits</h3>
-                <a data-target="#weatherbits" data-toggle="modal" data-image="images/weatherbits.png"><img class="img-responsive" src="images/weatherbits.png"></a>
-                <div class="modal fade" id="weatherbits" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                                <h3 class="modal-title" id="modalLabel">Weather Bits</h3>
-                            </div><!--modal-header-->
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <img src="images/weatherbits.png"> <br>
-                                        <a class="live-project btn btn-primary" href="http://www.mitchlthompson.com/weatherbits/" target="_blank">Live Demo</a>
-                                        <a class="live-project btn btn-primary" href="https://github.com/mitchthompson/weatherbits" target="_blank">Github Repo</a>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat quam enim, in dictum urna ultrices gravida. Aliquam tellus est, ullamcorper in dapibus quis, posuere ut tortor. Donec tincidunt sed magna quis feugiat. Integer gravida augue nec imperdiet pulvinar. Praesent vitae gravida mi.</p>
-                                        <p>HTML, CSS, PHP, Bootstrap, MySQL Database, Javascript, jQuery, Responsive Design, Github</p>
-                                    </div>
-                                </div>
-                            </div><!--modal-body-->
-                        </div><!--modal-content-->
-                    </div><!--modal-dialog-->
-                </div><!--modal-->
-            </div><!--project-->
-            <div class="project col-md-4 col-sm-12">
-                <h3>Purple Pickle</h3>
-                <a data-target="#project3" data-toggle="modal" data-image="images/purplepickle.png"><img class="img-responsive" src="images/purplepickle.png"></a>
-                <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                                <h3 class="modal-title" id="modalLabel">Purple Pickle</h3>
-                            </div><!--modal-header-->
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <img src="images/purplepickle.png"> <br>
-                                        <a class="live-project btn btn-primary" href="http://www.mitchlthompson.com/purplepickle/" target="_blank">Live Demo</a>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat quam enim, in dictum urna ultrices gravida. Aliquam tellus est, ullamcorper in dapibus quis, posuere ut tortor. Donec tincidunt sed magna quis feugiat. Integer gravida augue nec imperdiet pulvinar. Praesent vitae gravida mi. </p>
-                                        <p>Wordpress, HTML, CSS, PHP, Responsive Design</p>
-                                    </div>
-                                </div><!--row-->
-                            </div><!--modal-body-->
-                        </div><!--modal-content-->
-                    </div><!--modal-dialog-->
-                </div><!--modal-->
-            </div><!--project -->
-            <div class="project col-md-4 col-sm-12">
-                <h3>Weather Bits</h3>
-                <a data-target="#project4" data-toggle="modal" data-image="images/weatherbits.png"><img class="img-responsive" src="images/weatherbits.png"></a>
-                <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                                <h3 class="modal-title" id="modalLabel">Weather Bits</h3>
-                            </div><!--modal-header-->
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <img src="images/weatherbits.png"> <br>
-                                        <a class="live-project btn btn-primary" href="http://www.mitchlthompson.com/weatherbits/" target="_blank">Live Demo</a>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat quam enim, in dictum urna ultrices gravida. Aliquam tellus est, ullamcorper in dapibus quis, posuere ut tortor. Donec tincidunt sed magna quis feugiat. Integer gravida augue nec imperdiet pulvinar. Praesent vitae gravida mi. </p>
-                                        <p>HTML, CSS, PHP, MySQL Database, Javascript, jQuery Responsive Design</p>
-                                    </div>
-                                </div>
-                            </div><!--modal-body-->
-                        </div><!--modal-content-->
-                    </div><!--modal-dialog-->
-                </div><!--modal-->
-            </div><!--project-->    
-        </div><!--row projects-->
-    </div><!--container-->
+    <?php include 'includes/projects.php' ?>
     
     <div class="container box box-4">
         <div class="row contact">  
@@ -284,17 +155,22 @@
         <div class="row hire-me">  
             <div class="col-sm-5">
                 <ul class="list-unstyled">
-                    <li><a class="box-3" href="#box-3">Recent Projects</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="http://github.com/mitchthompson">Github</a></li>
-                    <li><a href="#">Download Resume</a></li>
+                    <li><a class="box-3" role="button" href="#box-3">Recent Projects</a></li>
+                    <li><a target="_blank" href="http://www.linkedin.com/in/mitchell-thompson">LinkedIn</a></li>
+                    <li><a target="_blank" href="http://github.com/mitchthompson">Github</a></li>
+                    <li><p>Download Resume</p>
+                        <ul class="resume list-unstyled">
+                            <li><a target="_blank" href="http://www.mitchlthompson.com/doc/Resume_ThompsonMitchell.pdf">PDF</a></li>
+                            <li><a target="_blank" href="http://www.mitchlthompson.com/doc/Resume_ThompsonMitchell.docx">Word</a></li>
+                            <li><a target="_blank" href="http://www.mitchlthompson.com/doc/Resume_ThompsonMitchell.txt
+                                ">Text</a></li>
+                        </ul>
+                    </li>
                 </ul>
-            </div><!--col-sm-5-->
-            
-            <div class="col-sm-7">
-                <img class="img-responsive" src="images/Resume.png"> 
-            </div><!--col-sm-7-->
-                
+            </div><!--col-sm-12-->
+            <div class="col-sm-7">   
+                <img class="img-responsive" src="images/Resume.png">
+            </div>
         </div><!--row -->
     </div><!--container-->
     
