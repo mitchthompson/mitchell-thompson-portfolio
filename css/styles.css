@@ -6,6 +6,7 @@ Version: 1.0
 @Author: Mitchell Thompson
 @Author URI: http://www.mitchlthompson.com
 */
+
 html {
     font-size: 1em;
 }
@@ -16,7 +17,10 @@ body, body * {
     line-height: 1.4;
     font-weight: 400;
     line-height: 1.45;
+<<<<<<< Updated upstream
     font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;   
+=======
+>>>>>>> Stashed changes
 }
 p {margin-bottom: 1.3em;}
 
