@@ -2,7 +2,7 @@
         <div class="row projects text-center">
             <div class="project col-md-4 col-sm-12">
                 <h3>HGO Musicians</h3>
-                <a data-target="#HGO" data-toggle="modal" data-image="./images/purplepickle.png"><img class="img-responsive" src="./images/purplepickle.png"></a>
+                <a data-target="#HGO" data-toggle="modal" data-image="./images/hgo.png"><img class="img-responsive" src="./images/hgo.png"></a>
                 <div class="modal fade" id="HGO" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
@@ -26,9 +26,9 @@
                                         <button class="desktop-view btn btn-primary btn-md" href="#">Desktop</button>
                                         <button class="tablet-view btn btn-primary btn-md" href="#">Tablet</button>
                                         <button class="mobile-view btn btn-primary btn-md" href="#">Mobile</button>
-                                        <img id="desktop" class="img-responsive" src="images/purplepickle.png"  alt="Purple Pickle Desktop View">
-                                        <img id="tablet" class="img-responsive" src="images/purplepickle_tablet.png"  alt="Purple Pickle Tablet View">
-                                        <img id="mobile" class="img-responsive" src="images/purplepickle_mobile.png"  alt="Purple Pickle Mobile View">
+                                        <img id="desktop" class="img-responsive" src="images/hgo_desktop.png"  alt="Purple Pickle Desktop View">
+                                        <img id="tablet" class="img-responsive" src="images/hgo_tablet.png"  alt="Purple Pickle Tablet View">
+                                        <img id="mobile" class="img-responsive" src="images/hgo_mobile.png"  alt="Purple Pickle Mobile View">
                                     </div><!--views-->
                                     <div class="col-sm-6">
                                         <p>The Houston Grand Opera Orchestra is one of the premiere opera orchestras in North America. Founded in 1955, it has grown from a small regional orchestra to forty-nine members. The client did not have have a website, so this was to built entirely from scratch. They wanted visitors to the site to be able to get info on their musicians, upcoming performances, and other general info. They also wanted to have a running blog with news and announcements related to auditions. A Wordpress custom theme was recommended so the client could get all the benefits of a content management system - easily adding content without coding knowledge - while also getting that custom brand look and feel. They did not have any branding at all, so a logo and brand styles were created with input from the client.</p>
