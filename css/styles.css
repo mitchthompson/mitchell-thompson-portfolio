@@ -87,7 +87,7 @@ p {
 }
 @media (max-width: 450px) {
     .navbar.navbar-default.navbar-custom li a {
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .header {
         height:60px;
@@ -164,7 +164,7 @@ ul.skill_list li {
     }
     .skills p {
     text-align: left;
-    font-size: 1.1em;
+    font-size: 1.3em;
     }
     ul.skill_list li {
     text-align: left;
@@ -287,5 +287,3 @@ footer {
     font-family: "Molot";
     src: url('./fonts/Molot.otf');
 }
-
-
