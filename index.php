@@ -52,7 +52,7 @@
     <div class="container box box-4">
         <div class="row contact">  
             <div class="contact col-sm-2">
-                <img class="img-thumbnail" src="images/mitchellthompson.jpg">
+                <img class="img-responsive" src="images/mitchellthompson.jpg">
             </div>
             <div class="contact-form col-sm-10">
                     <form role="form" class='form-horizontal'>
@@ -93,8 +93,9 @@
     </div><!--container-->
     
     <div class="container box box-5">
+        <h2>Project Exploration</h2>
         <div class="row contact-website"> 
-            <div class="col-md-offset-2 col-md-8">
+            <div class="col-md-8">
                 <p><span>Interested in working together?</span> Fill out the Project Exploration form with the basics about your project. I will respond within a few business days. Until then, check out some of my recent <a class="box-3" href="#box-3">projects</a>.</p>
                 <form role="form" class='form-horizontal'>
                   <div class="form-group">

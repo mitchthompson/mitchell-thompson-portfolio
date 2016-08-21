@@ -1,5 +1,6 @@
 <div class="container box box-3">
-        <div class="row projects text-center">
+        <h2>RECENT PROJECTS</h2>
+        <div class="row projects">
             <div class="project col-md-4 col-sm-12">
                 <h3>HGO Musicians</h3>
                 <a data-target="#HGO" data-toggle="modal" data-image="./images/hgo.png"><img class="img-responsive" src="./images/hgo.png"></a>

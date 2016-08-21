@@ -173,6 +173,9 @@ ul.skill_list li {
     }
 }
 /** Projects  **/
+.box-3 h2 {
+    margin-top: -10px;
+}
 .modal-content {
     background-color:#ECF0F1;
 }
@@ -221,12 +224,18 @@ ul.skill_list li {
     display:block;
     width: 45%;
 }
+.contact img {
+    margin-bottom: 15px;
+}
 @media (min-width:790px and max-width:990px) {
     .fa {
     padding-right:30px;
 }
 }
 /** Need a website contact  **/
+.box-5 h2 {
+    margin-top: -10px;
+}
 .contact-website p {
     padding-bottom: 30px;
 }
@@ -249,6 +258,8 @@ ul.resume li {
     margin-bottom: 2px;
     text-decoration: underline;
 }
+.hire-me ul {
+    margin-bottom: 15px;
 }
 @media (min-width:790px and max-width:990px) {
     .fa {
