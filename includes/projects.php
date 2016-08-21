@@ -72,7 +72,7 @@
                                         <img id="mobile" class="img-responsive" src="images/weatherbits_mobile.png"  alt="Purple Pickle Mobile View">
                                     </div><!--views-->
                                     <div class="col-sm-6">
-                                        <p>Weatherbits is what you might have guessed, a weather and forecast application. Beyond searching for a single city, users can also register to save a list of favorite cities. Weatherbits was a personal project to push and challenge myself. I was learning a few new technologies that I wanted to use in a project - Bootstrap and jQuery primarily. Many of the skills I learned in this project - combined with the skills it helped build further - I've use in my other projects. </p>
+                                        <p>Weatherbits is what you might have guessed, a weather and forecast application. Beyond searching for a single city, users can also register to save a list of favorite cities. Weatherbits was a personal project to push and challenge myself. I was learning a few new technologies that I wanted to use in a project - Bootstrap and jQuery primarily. Many of the skills I learned in this project I've use in my other projects. </p>
                                         <a class="live-project btn btn-primary" href="http://www.mitchlthompson.com/weatherbits/" target="_blank">Live Demo</a>
                                         <a class="live-project btn btn-primary" href="https://github.com/mitchthompson/weatherbits" target="_blank">Github Repo</a>
                                     </div><!--col-sm-6-->

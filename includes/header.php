@@ -22,7 +22,7 @@
 
 <nav id="top" class="navbar navbar-default navbar-custom" role="navigation">
     <div class="container header">
-       <div class="navbar"  id="myNav">               
+       <div class="navbar container"  id="myNav">               
             <ul class="nav navbar-nav">    
                 <li><a class="box-2" href="#box-2">Skills</a></li> 
                 <li><a class="box-3" href="#box-3">Projects</a></li> 
@@ -30,6 +30,6 @@
 <!--                <li><a class="box-1" href="#box-1">About</a></li> -->
             </ul> 
         </div><!-- navbar --> 
-    </div><!--container-fluid-->
+    </div><!--container-->
 </nav>
 
