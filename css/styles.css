@@ -196,6 +196,9 @@ ul.skill_list li {
     background-color:#2C3E50;
     color:white;
 }
+.modal {
+    text-align: center;
+}
 .modal-body img {
     margin-bottom: 10px;
     border: 1px solid black;
@@ -219,6 +222,9 @@ ul.skill_list li {
     margin: 10px 0 10px 0;
 }
 /** Contact  **/
+.box-4 h2 {
+    margin-top: -10px;
+}
 .self {
     margin-bottom:10px;
     display:block;

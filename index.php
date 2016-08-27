@@ -50,7 +50,8 @@
     <?php include 'includes/projects.php' ?>
     
     <div class="container box box-4">
-        <div class="row contact">  
+        <h2>Contact</h2>
+        <div class="row contact"> 
             <div class="contact col-sm-2">
                 <img class="img-responsive" src="images/mitchellthompson.jpg">
             </div>

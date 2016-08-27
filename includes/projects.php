@@ -33,7 +33,7 @@
                                     </div><!--views-->
                                     <div class="col-sm-6">
                                         <p>The Houston Grand Opera Orchestra is one of the premiere opera orchestras in North America. Founded in 1955, it has grown from a small regional orchestra to forty-nine members. The client did not have have a website, so this was to built entirely from scratch. They wanted visitors to the site to be able to get info on their musicians, upcoming performances, and other general info. They also wanted to have a running blog with news and announcements related to auditions. A Wordpress custom theme was recommended so the client could get all the benefits of a content management system - easily adding content without coding knowledge - while also getting that custom brand look and feel. They did not have any branding at all, so a logo and brand styles were created with input from the client.</p>
-                                        <a class="live-project btn btn-primary" href="http://www.web210.sammchaney.com/" target="_blank">Live Demo</a>
+                                        <a class="live-project btn btn-primary" href="http://www.hgoorchestra.org/" target="_blank">Live Demo</a>
                                         <a class="live-project btn btn-primary" href="http://github.com/mitchthompson/hgo-musicians" target="_blank">Github Repo</a>
                                     </div>
                                 </div>
