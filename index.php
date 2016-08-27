@@ -29,6 +29,7 @@
                         <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Javascript</i></span></li>
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Bootstrap</i></li>
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Wordpress</i></li>
+                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> NPM</i></li>
                     </ul>
                 </div>
                 <div class="col-xs-6">
@@ -37,6 +38,7 @@
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> PHP</i></li>
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Java</i></li>
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> SQL</i></li>
+                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Angular</i></li>
                     </ul>
                 </div>
             </div><!--skills-->
@@ -154,12 +156,11 @@
     </div><!--container-->  
     
     <div class="container box box-6">
-        <div class="row hire-me">  
+        <h2>Connect</h2>
+        <div class="row hire-me">
             <div class="col-sm-5">
+                <p>Connect with me on <a target="_blank" href="http://www.linkedin.com/in/mitchell-thompson">LinkedIn</a>, check out some of my code on <a target="_blank" href="http://github.com/mitchthompson">Github</a>, or see some of my <a class="box-3" role="button" href="#box-3">recent projects</a>. I have a <a class="box-4" href="#box-4">contact form</a> or feel free to use my contact info on my resume.</p>
                 <ul class="list-unstyled">
-                    <li><a class="box-3" role="button" href="#box-3">Recent Projects</a></li>
-                    <li><a target="_blank" href="http://www.linkedin.com/in/mitchell-thompson">LinkedIn</a></li>
-                    <li><a target="_blank" href="http://github.com/mitchthompson">Github</a></li>
                     <li><p>Download Resume</p>
                         <ul class="resume list-unstyled">
                             <li><a target="_blank" href="http://www.mitchlthompson.com/doc/Resume_ThompsonMitchell.pdf">PDF</a></li>

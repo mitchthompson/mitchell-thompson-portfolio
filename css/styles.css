@@ -250,6 +250,9 @@ ul.skill_list li {
 }
 
 /** hire-me  **/
+.box-6 h2 {
+    margin-top: -10px;
+}
 .hire-me ul li a {
     font-size:1.5em;
     color: black;
