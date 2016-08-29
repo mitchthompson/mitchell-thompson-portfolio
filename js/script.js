@@ -63,6 +63,7 @@ $(document).ready(function(){
         $('html, body').animate({scrollTop: $("div.box-6").offset().top}, 1000);
     });
     
+    //Show/Hide project picture view based on user click
     $(".modal img").not("#desktop").hide();
     $(".desktop-view").css("background-color", "#2e6da4");
     
@@ -81,7 +82,21 @@ $(document).ready(function(){
         $(".modal img").not("#mobile").hide();
         $(".modal #mobile").show();
     });
-
+     
+    
+    //Custom form submit 
+    $( "#contact" ).submit(function( event ) {
+        $('#contact-success').html("SUCCESS! I will get back to within two business days. Thank you!");
+        $('#contact-success').addClass('alert alert-success');
+        event.preventDefault();
+    });
+    
+    //Custom form submit 
+    $( "#project-exploration" ).submit(function( event ) {
+        $('#exploration-success').html("SUCCESS! I will get back to within two business days. Thank you!");
+        $('#exploration-success').addClass('alert alert-success');
+        event.preventDefault();
+    });
  
 });
 

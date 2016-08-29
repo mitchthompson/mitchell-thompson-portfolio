@@ -10,6 +10,7 @@ Version: 1.0
 html {
     font-size: 1em;
 }
+strong { font-weight: bold; }
 body, body * {
 	padding: 0;
 	margin: 0;
@@ -232,6 +233,9 @@ ul.skill_list li {
 }
 .contact img {
     margin-bottom: 15px;
+}
+#contact-success {
+
 }
 @media (min-width:790px and max-width:990px) {
     .fa {

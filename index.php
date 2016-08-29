@@ -58,23 +58,23 @@
                 <img class="img-responsive" src="images/mitchellthompson.jpg">
             </div>
             <div class="contact-form col-sm-10">
-                    <form role="form" class='form-horizontal'>
+                    <form role="form" class='form-horizontal' id="contact" method="post" action="includes/formhandler.php">
                       <div class="form-group">
                         <label for="name" class="col-sm-2">Name</label>
                         <div class="col-sm-10">
-                            <input type="name" class="form-control" id="inputName">
+                            <input type="name" name="name" class="form-control" id="inputName">
                         </div>
                       </div>
                       <div class="form-group">
                         <label for="inputEmail" class="col-sm-2">Email</label>
                         <div class="col-sm-10">
-                            <input type="email" class="form-control" id="inputEmail">
+                            <input type="email" name="email" class="form-control" id="inputEmail">
                         </div>
                       </div>
                       <div class="form-group">
                           <label for="inputReason" class="col-sm-2">Reason</label>
                           <div class="col-sm-10">
-                              <select id="inputReason" class="form-control">
+                              <select id="inputReason" name="reason" class="form-control">
                                   <option value="" disabled selected>Reason for contacting...</option>
                                   <option>I need a website</option>
                                   <option>I have a job opportunity</option>
@@ -89,9 +89,10 @@
                             <textarea name="comments" id="inputComments" class="form-control" rows="3" placeholder="Questions or comments"></textarea>
                           </div>
                       </div>
-                          <button type="submit" class="btn btn-default btn-lg pull-right">Submit</button>
+                          <button type="submit" value="submit" class="btn btn-default btn-lg pull-right">Submit</button>
                     </form>   
-            </div><!--contact-form -->   
+            </div><!--contact-form -->
+            <div id="contact-success" class="text-center col-xs-8 col-md-offset-2"></div>
         </div><!--row -->
     </div><!--container-->
     
@@ -100,41 +101,41 @@
         <div class="row contact-website"> 
             <div class="col-md-8">
                 <p><span>Interested in working together?</span> Fill out the Project Exploration form with the basics about your project. I will respond within a few business days. Until then, check out some of my recent <a class="box-3" href="#box-3">projects</a>.</p>
-                <form role="form" class='form-horizontal'>
+                <form role="form" class='form-horizontal' method="post" action="includes/formhandler.php" id="project-exploration">
                   <div class="form-group">
                     <label for="name" class="col-sm-2">Name</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="inputName">
+                        <input type="text" name="name" class="form-control" id="inputName">
                     </div>
                   </div>
                   <div class="form-group">
                     <label for="inputEmail" class="col-sm-2">Email</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control" id="inputEmail">
+                        <input type="email" name="email" class="form-control" id="inputEmail">
                     </div>
                   </div>
                   <div class="form-group">
                     <label for="inputWebsite" class="col-sm-2">Website</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="inputWebsite">
+                        <input type="text" name="website" class="form-control" id="inputWebsite">
                     </div>
                   </div>
                   <div class="form-group">
                     <label for="inputTimeline" class="col-sm-2">Timeline</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="inputTimeline">
+                        <input type="text" name="timeline" class="form-control" id="inputTimeline">
                     </div>
                   </div>
                   <div class="form-group">
                     <label for="inputBudget" class="col-sm-2">Budget</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="inputBudget">
+                        <input type="text" name="budget" class="form-control" id="inputBudget">
                     </div>
                   </div>
                   <div class="form-group">
                       <label for="inputReason" class="col-sm-2">Reason</label>
                       <div class="col-sm-10">
-                          <select id="inputReason" class="form-control">
+                          <select id="inputReason" name="reason" class="form-control">
                               <option value="" disabled selected>New site or redesign?</option>
                               <option>This will be a brand new website</option>
                               <option>This will be a resdesign of an existing website</option>
@@ -151,6 +152,7 @@
                   </div>
                       <button type="submit" class="btn btn-default btn-lg pull-right">Submit</button>
                 </form>
+                <div id="exploration-success" class="text-center col-xs-8 col-md-offset-2"></div>
             </div><!--col-md-8-->
         </div><!--row -->
     </div><!--container-->  
