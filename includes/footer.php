@@ -11,7 +11,6 @@
             </ul>
             <ul class="col-sm-3 col-xs-12">
                 <li><a href="https://github.com/mitchthompson" target="_blank"><i class="fa fa-github-square fa-1x" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.facebook.com/mitchell.thompson" target="_blank"><i class="fa fa-facebook-square fa-1x" aria-hidden="true"></i></a></li>            <li><a href="https://twitter.com/mitche" target="_blank"><i class="fa fa-twitter-square fa-1x" aria-hidden="true"></i></a></li>
                 <li><a href="http://www.linkedin.com/in/mitchell-thompson
 " target="_blank"><i class="fa fa-linkedin-square fa-1x disabled" aria-hidden="true"></i></a>
             </ul>

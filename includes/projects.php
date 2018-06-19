@@ -1,8 +1,92 @@
 <div class="container box box-3">
         <h2>RECENT PROJECTS</h2>
-        <div class="row projects">
+        
+        <div class="row projects1">
+            
             <div class="project col-md-4 col-sm-12">
-                <h3>HGO Musicians</h3>
+                <h3 class="text-center">Meal Queue</h3>
+                <a data-target="#meal-queue" data-toggle="modal" data-image="./images/meal-queue-home-small.jpg"><img class="img-responsive" src="./images/meal-queue-home-small.jpg"></a>
+                <div class="modal fade" id="meal-queue" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <h3 class="modal-title" id="modalLabel">Meal Queue</h3>
+                            </div><!--modal-header-->
+                            <div class="modal-body">
+                                <ul class="list-unstyled">
+                                            <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Native Andriod</i></li> 
+                                            <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Java</i></span></li>
+                                            <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> XML</i></span></li>
+                                            <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Firebase</i></li>
+                                            <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Material Design</i></li>
+                                        </ul>
+                                <div class="row">
+                                    <div class="col-md-6 views">
+                                        <button class="desktop-view btn btn-primary btn-md" href="#">Planner</button>
+                                        <button class="tablet-view btn btn-primary btn-md" href="#">Recipe</button>
+                                        <button class="mobile-view btn btn-primary btn-md" href="#">Grocery List</button>
+                                        <img id="desktop" class="img-responsive" src="images/meal-queue-home.jpg"  alt="Purple Pickle Desktop View">
+                                        <img id="tablet" class="img-responsive" src="images/meal-queue-recipe.jpg"  alt="Purple Pickle Tablet View">
+                                        <img id="mobile" class="img-responsive" src="images/meal-queue-grocery.jpg"  alt="Purple Pickle Mobile View">
+                                    </div><!--views-->
+                                    <div class="col-md-6">
+                                        <p>Meal planning app to import recipes from websites, create calendar of meals, and dynamically create a grocery list with ingredients from recipes in meal plan. Java-based android app using Firebase for the database and user accounts.</p>
+                                        <a class="live-project btn btn-primary" href="http://www.github.com/mitchthompson/mealqueue" target="_blank">GitHub Repo</a>
+                                    </div>
+                                </div>
+                            </div><!--modal-body-->
+                        </div><!--modal-content-->
+                    </div><!--modal-dialog-->
+                </div><!--modal-->
+            </div><!--project-->
+            
+            <div class="project col-md-4 col-sm-12">
+                <h3 class="text-center">Star Parent</h3>
+                <a data-target="#star-parent" data-toggle="modal" data-image="./images/starparent-home-small.jpg"><img class="img-responsive" src="./images/starparent-home-small.jpg"></a>
+                <div class="modal fade" id="star-parent" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <h3 class="modal-title" id="modalLabel">Star Parent</h3>
+                            </div><!--modal-header-->
+                            <div class="modal-body">
+                                <ul class="list-unstyled">
+                                            <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Native Andriod</i></li> 
+                                            <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Java</i></span></li>
+                                            <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> XML</i></span></li>
+                                        </ul>
+                                <div class="row">
+                                    <div class="col-md-6 views">
+                                        <button class="desktop-view btn btn-primary btn-md" href="#">Home</button>
+                                        <button class="tablet-view btn btn-primary btn-md" href="#">Quick Ideas</button>
+                                        <button class="mobile-view btn btn-primary btn-md" href="#">Navigation</button>
+                                        <img id="desktop" class="img-responsive" src="images/starparent-home.jpg"  alt="Purple Pickle Desktop View">
+                                        <img id="tablet" class="img-responsive" src="images/starparent-quickideas.jpg"  alt="Purple Pickle Tablet View">
+                                        <img id="mobile" class="img-responsive" src="images/starparent-nav.jpg"  alt="Purple Pickle Mobile View">
+                                    </div><!--views-->
+                                    <div class="col-md-6">
+                                        <p>The STAR Parent Android App is a companion to the book STAR Parenting Tales and Tools. It provides quick access to STAR Parenting tools like the Ideas Bank, Problem Solving Guide, and an interactive guide to applying the STAR Parenting Process and STAR Points & Tools. Worked on design and development of a new Java based Android application. Developer on small team working to guide novice client through process using Java, Android Studio, GitHub, and Sourcetree.</p>
+                                        <a class="live-project btn btn-primary" href="http://www.github.com/mitchthompson/starparent" target="_blank">GitHub Repo</a>
+                                    </div>
+                                </div>
+                            </div><!--modal-body-->
+                        </div><!--modal-content-->
+                    </div><!--modal-dialog-->
+                </div><!--modal-->
+            </div><!--project-->
+            
+        </div><!--row projects1-->
+        
+        <div class="row projects2">
+    
+            <div class="project col-md-4 col-sm-12">
+                <h3 class="text-center">HGO Musicians</h3>
                 <a data-target="#HGO" data-toggle="modal" data-image="./images/hgo.png"><img class="img-responsive" src="./images/hgo.png"></a>
                 <div class="modal fade" id="HGO" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
                     <div class="modal-dialog modal-lg" role="document">
@@ -43,7 +127,7 @@
                 </div><!--modal-->
             </div><!--project-->
             <div class="project col-md-4 col-sm-12">
-                <h3>Weather Bits</h3>
+                <h3 class="text-center">Weather Bits</h3>
                 <a data-target="#weatherbits" data-toggle="modal" data-image="images/weatherbits.png"><img class="img-responsive" src="images/weatherbits.png"></a>
                 <div class="modal fade" id="weatherbits" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
                     <div class="modal-dialog modal-lg" role="document">
@@ -84,7 +168,7 @@
                 </div><!--modal-->
             </div><!--project -->
             <div class="project col-md-4 col-sm-12">
-                <h3>Purple Pickle</h3>
+                <h3 class="text-center">Purple Pickle</h3>
                 <a data-target="#purple-pickle" data-toggle="modal" data-image="images/purplepickle.png"><img class="img-responsive" src="images/purplepickle.png"></a>
                 <div class="modal fade" id="purple-pickle" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
                     <div class="modal-dialog modal-lg" role="document">
@@ -122,5 +206,7 @@
                     </div><!--modal-dialog-->
                 </div><!--modal-->
             </div><!--project-->
-        </div><!--row projects-->
+            
+        </div><!--row projects2-->
+            
     </div><!--container-->

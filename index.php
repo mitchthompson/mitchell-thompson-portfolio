@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h2>Hello.</h2>
-                    <p>My name is Mitchell Thompson, and I am Seattle-based Web Developer. I have a diverse set of skills, and I enjoy building everything from small business sites to rich dynamic web apps. I have some of my recent <a class="box-3" href="#box-3">projects</a> available that show my <a class="box-2" href="#box-2">skills</a> in action. Feel free to <a class="box-4" href="#box-4">contact</a> me if you have any questions or just want chat about what we can do together.</p> 
+                    <p>My name is Mitchell Thompson, and I am Seattle-based web and mobile developer. I have a diverse set of skills, and I enjoy building everything from small business sites, rich dynamic web apps, and versatile native mobile apps. I have some of my recent <a class="box-3" href="#box-3">projects</a> available that show my <a class="box-2" href="#box-2">skills</a> in action. Feel free to <a class="box-4" href="#box-4">contact</a> me or connect with me on <a target="_blank" href="http://www.linkedin.com/in/mitchell-thompson">LinkedIn</a> if you have any questions or just want chat about what we can do together.</p> 
                 </div>
             </div>
             <div class="row">
@@ -13,7 +13,7 @@
                     <a href="#" class="hire box-6 btn btn-primary center-block" role="button">I'm looking to hire   <span class="glyphicon glyphicon-chevron-right"></span></a>
                 </div>
                 <div class="col-lg-4 col-sm-4 col-xs-6">
-                    <a href="#" class="hire box-5 btn btn-primary center-block" role="button">I need a website  <span class="glyphicon glyphicon-chevron-right"></span></a>
+                    <a href="#" class="hire box-5 btn btn-primary center-block" role="button">I need an app  <span class="glyphicon glyphicon-chevron-right"></span></a>
                 </div>
             </div>
         </div><!--container-->
@@ -27,23 +27,31 @@
                     <ul class="skill_list list-unstyled">
                         <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> HTML/CSS</i></span></li>
                         <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Javascript</i></span></li>
+                        <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> jQuery</i></span></li>
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Bootstrap</i></li>
+                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> React</i></li>
+                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> CMS</i></li>
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Wordpress</i></li>
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> NPM</i></li>
+                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> PHP</i></li>
                     </ul>
                 </div>
                 <div class="col-xs-6">
                     <ul class="skill_list list-unstyled">
-                        <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> jQuery</i></span></li>
-                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> PHP</i></li>
+                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Android Dev</i></li>
+                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Firebase</i></li>
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Java</i></li>
+                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> XML</i></li>
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> SQL</i></li>
-                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Angular</i></li>
+                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Material Design</i></li>
+                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Version Control</i></li>
+                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> GitHub</i></li>
+                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> VSTS</i></li>
                     </ul>
                 </div>
             </div><!--skills-->
             <div class="skills col-xs-12">
-                <p>My skill set is varied, spanning front-end to back-end development. I am adept at designing, developing, and launching websites that incorporate modern styling implementations like responsive and adaptive design. I'm skilled in creating interactive and dynamic web applications using MVC design. I am familiar with Agile methodologies like Scrum, and using tools like Github on collaborative team projects. I can build a website from scratch or build a custom template for use on a Content Management System like Wordpress. I'm savvy working with custom css and designing with frameworks like Bootstrap. Most of all, I'm always eager to try new methods and technologies to build things that are functional and beautiful.</p>    
+                <p>My skill set is varied, spanning front-end to back-end development. I've worked on projects designing and developing Java based Android apps using a real-time firebase database. I am adept at designing, developing, and launching websites that incorporate modern styling implementations like responsive and adaptive design. I'm skilled in creating interactive and dynamic web applications using MVC design. I am familiar with Agile methodologies like Scrum, and using tools like Github on collaborative team projects. I can build a website from scratch or build a custom template for use on a Content Management System like Wordpress. I'm savvy working with custom css and designing with frameworks like Bootstrap. Most of all, I'm always eager to try new methods and technologies to build things that are functional and fun.</p>    
             </div><!--skills-->
             
         </div><!--row -->
@@ -76,7 +84,7 @@
                           <div class="col-sm-10">
                               <select id="inputReason" name="reason" class="form-control">
                                   <option value="" disabled selected>Reason for contacting...</option>
-                                  <option>I need a website</option>
+                                  <option>I need a web or mobile app</option>
                                   <option>I have a job opportunity</option>
                                   <option>Let's get coffee!</option>
                                   <option>Other</option>
@@ -136,9 +144,9 @@
                       <label for="inputReason" class="col-sm-2">Reason</label>
                       <div class="col-sm-10">
                           <select id="inputReason" name="reason" class="form-control">
-                              <option value="" disabled selected>New site or redesign?</option>
-                              <option>This will be a brand new website</option>
-                              <option>This will be a resdesign of an existing website</option>
+                              <option value="" disabled selected>New app or redesign?</option>
+                              <option>This will be a brand new app</option>
+                              <option>This will be a resdesign of an existing app</option>
                               <option>It's complicated..</option>
                               <option>Other</option>
                           </select>
@@ -161,14 +169,12 @@
         <h2>Connect</h2>
         <div class="row hire-me">
             <div class="col-sm-5">
-                <p>Connect with me on <a target="_blank" href="http://www.linkedin.com/in/mitchell-thompson">LinkedIn</a>, check out some of my code on <a target="_blank" href="http://github.com/mitchthompson">Github</a>, or see some of my <a class="box-3" role="button" href="#box-3">recent projects</a>. I have a <a class="box-4" href="#box-4">contact form</a> or feel free to use my contact info on my resume.</p>
+                <p>Connect with me on <a target="_blank" href="http://www.linkedin.com/in/mitchell-thompson">LinkedIn</a>, check out some of my code on <a target="_blank" href="http://github.com/mitchthompson">Github</a>, or see some of my <a class="box-3" role="button" href="#box-3">recent projects</a>. I have a <a class="box-4" href="#box-4">contact form</a> but <a target="_blank" href="http://www.linkedin.com/in/mitchell-thompson">LinkedIn</a> would work best.</p>
                 <ul class="list-unstyled">
                     <li><p>Download Resume</p>
                         <ul class="resume list-unstyled">
-                            <li><a target="_blank" href="http://www.mitchlthompson.com/doc/Resume_ThompsonMitchell.pdf">PDF</a></li>
-                            <li><a target="_blank" href="http://www.mitchlthompson.com/doc/Resume_ThompsonMitchell.docx">Word</a></li>
-                            <li><a target="_blank" href="http://www.mitchlthompson.com/doc/Resume_ThompsonMitchell.txt
-                                ">Text</a></li>
+                            <li><a target="_blank" href="http://www.mitchlthompson.com/doc/WebResume_ThompsonMitchell.pdf">PDF</a></li>
+                            <li><a target="_blank" href="http://www.mitchlthompson.com/doc/WebResume_ThompsonMitchell.docx">Word</a></li>
                         </ul>
                     </li>
                 </ul>

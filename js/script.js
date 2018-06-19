@@ -63,7 +63,7 @@ $(document).ready(function(){
         $('html, body').animate({scrollTop: $("div.box-6").offset().top}, 1000);
     });
     
-    //Show/Hide project picture view based on user click
+    //Show/Hide web project picture view based on user click
     $(".modal img").not("#desktop").hide();
     $(".desktop-view").css("background-color", "#2e6da4");
     
@@ -82,7 +82,6 @@ $(document).ready(function(){
         $(".modal img").not("#mobile").hide();
         $(".modal #mobile").show();
     });
-     
     
     //Custom form submit 
     $( "#contact" ).submit(function( event ) {
