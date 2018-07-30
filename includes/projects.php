@@ -17,11 +17,10 @@
                             </div><!--modal-header-->
                             <div class="modal-body">
                                 <ul class="list-unstyled">
-                                            <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Native Andriod</i></li> 
+                                            <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Native Android</i></li> 
                                             <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Java</i></span></li>
                                             <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> XML</i></span></li>
                                             <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Firebase</i></li>
-                                            <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Material Design</i></li>
                                         </ul>
                                 <div class="row">
                                     <div class="col-md-6 views">
@@ -34,7 +33,14 @@
                                     </div><!--views-->
                                     <div class="col-md-6">
                                         <p>Meal planning app to import recipes from websites, create calendar of meals, and dynamically create a grocery list with ingredients from recipes in meal plan. Java-based android app using Firebase for the database and user accounts.</p>
+                                        <h4 class="text-center">Demo</h3>
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VBhRJmLxnnM" allowfullscreen></iframe>
+                                        </div>
+                                        <br />
+                                        <a class="live-project btn btn-primary" href="https://play.google.com/store/apps/details?id=com.mitchlthompson.mealqueue" target="_blank">Google Play</a>
                                         <a class="live-project btn btn-primary" href="http://www.github.com/mitchthompson/mealqueue" target="_blank">GitHub Repo</a>
+                                
                                     </div>
                                 </div>
                             </div><!--modal-body-->
