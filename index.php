@@ -4,8 +4,10 @@
         <div class="container box-1 about">
             <div class="row">
                 <div class="col-md-12">
+                    <div class="intro-section">
                     <h2>Hello.</h2>
                     <p>My name is Mitchell Thompson, and I am Seattle-based web and mobile developer. I have a diverse set of skills, and I enjoy building everything from small business sites, rich dynamic web apps, and versatile native mobile apps. I have some of my recent <a class="box-3" href="#box-3">projects</a> available that show my <a class="box-2" href="#box-2">skills</a> in action. Feel free to <a class="box-4" href="#box-4">contact</a> me or connect with me on <a target="_blank" href="http://www.linkedin.com/in/mitchell-thompson">LinkedIn</a> if you have any questions or just want chat about what we can do together.</p> 
+                    </div>
                 </div>
             </div>
             <div class="row">
