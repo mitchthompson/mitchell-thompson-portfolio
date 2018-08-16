@@ -1,8 +1,10 @@
 $(document).ready(function(){
-    $("#boxes").hide();
-    $("footer").hide();
-    $(".box").not(".box-1").hide();
-    $("nav a.box-1").css('text-decoration', 'underline');
+    $("#boxes").show();
+    $(".box").not(".box-2").hide();
+    $("nav a").not(".box-2").removeAttr( 'style' );
+    $(".back a").not(".box-2").removeAttr( 'style' );
+    $("a.box-2").css('text-decoration', 'underline');
+    $(".box").not(".box-2").hide();
     
     //show or hide sectiions based on user click in nav/footer ul
     $("a.box-1").click(function(event) {

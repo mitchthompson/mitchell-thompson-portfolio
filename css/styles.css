@@ -78,6 +78,9 @@ p {
     .navbar-custom {
     }
 }
+.navbar {
+    margin-bottom: 0;
+}
 .navbar.navbar-default.navbar-custom li a {
     color:white;
     font-family: "Molot", sans-serif;
@@ -113,7 +116,8 @@ p {
 }
 .jumbotron {
     background-color:white;
-    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-top:20px;
 }
 .boxes {
     border-top: solid 2px #2C3E50;
@@ -126,7 +130,9 @@ p {
     text-decoration: none !important;;
 }
 a.hire {
-    background-color: #2C3E50;
+    /*background-color: #2C3E50;*/
+    background-color: #202020;
+    border-color:#303030;
     margin-top:6%;
     border-radius: 0;
     text-decoration: none !important;
@@ -140,7 +146,29 @@ a.hire:hover, a.hire:visited, a.hire:link, a.hire:active {
     color: #90D5FD;
 }
 .intro {
-    padding-top: 25px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/intro-background.jpg');
+        background-size: cover;
+}
+.intro-section-box {
+    /*background: rgb(204, 204, 204);*/
+    background: rgba(64,64,64, 0.7);
+    padding:3%;
+    margin-left: -1%;
+    border:solid white 0.5px;
+}
+.intro-section h2{
+     color:#fff;
+}
+.intro-section p{
+     color:#fff;
+}
+.intro-section a {
+    color:#C8C8C8;
 }
 .about h2 {
     margin-top: 0;

@@ -2,10 +2,13 @@
 <main>
 <div class="jumbotron intro">
         <div class="container box-1 about">
+            <div class="intro-section-box">
             <div class="row">
                 <div class="col-md-12">
+                    <div class="intro-section">
                     <h2>Hello.</h2>
                     <p>My name is Mitchell Thompson, and I am Seattle-based web and mobile developer. I have a diverse set of skills, and I enjoy building everything from small business sites, rich dynamic web apps, and versatile native mobile apps. I have some of my recent <a class="box-3" href="#box-3">projects</a> available that show my <a class="box-2" href="#box-2">skills</a> in action. Feel free to <a class="box-4" href="#box-4">contact</a> me or connect with me on <a target="_blank" href="http://www.linkedin.com/in/mitchell-thompson">LinkedIn</a> if you have any questions or just want chat about what we can do together.</p> 
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -16,6 +19,7 @@
                     <a href="#" class="hire box-5 btn btn-primary center-block" role="button">I need an app  <span class="glyphicon glyphicon-chevron-right"></span></a>
                 </div>
             </div>
+            </div>
         </div><!--container-->
 </div>
 <div id="boxes" class="jumbotron boxes">
@@ -25,26 +29,26 @@
                 <h2>WHAT I CAN DO</h2>
                 <div class="col-xs-6">
                     <ul class="skill_list list-unstyled">
-                        <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> HTML/CSS</i></span></li>
+                        <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> HTML</i></span></li>
+                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> CSS</i></li>
                         <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Javascript</i></span></li>
                         <li><span><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> jQuery</i></span></li>
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Bootstrap</i></li>
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> React</i></li>
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> CMS</i></li>
-                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Wordpress</i></li>
-                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> NPM</i></li>
+                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> WordPress</i></li>
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> PHP</i></li>
                     </ul>
                 </div>
                 <div class="col-xs-6">
                     <ul class="skill_list list-unstyled">
-                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Android Dev</i></li>
-                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Firebase</i></li>
+                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Android</i></li>
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Java</i></li>
+                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Firebase</i></li>
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> XML</i></li>
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> SQL</i></li>
-                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Material Design</i></li>
-                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Version Control</i></li>
+                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> NPM</i></li>
+                        <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> Git</i></li>
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> GitHub</i></li>
                         <li><i class="fa fa-check-square-o fa-2x" aria-hidden="true"> VSTS</i></li>
                     </ul>
