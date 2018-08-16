@@ -1,9 +1,7 @@
 <div class="container box box-3">
         <h2>RECENT PROJECTS</h2>
-        
-        <div class="project col-md-12">
-            <p>I have several public facing projects below ranging from mobile apps to custom Wordpress themes to web apps leveraging open source APIs. I also worked on an app for UST Global developed for onboarding T-Mobile employees (<a target="_blank" href="https://github.com/mitchthompson/ust-onboarding-mobile-app">repo code</a>) and an internal web app for North Seattle College (<a target="_blank" href="https://github.com/panzerama/NSC-AD410-TIP-GROUP1">repo code</a>). On my <a target="_blank" href="https://github.com/mitchthompson" >GitHub profile</a> I also have several smaller projects I've used as a way to learn new technologies like React and Redux. </p>
-        </div>
+        <p>I have several public facing projects below ranging from mobile apps to custom Wordpress themes to web apps leveraging open source APIs. I also worked on an app for UST Global developed for onboarding T-Mobile employees (<a target="_blank" href="https://github.com/mitchthompson/ust-onboarding-mobile-app">repo code</a>) and an internal web app for North Seattle College using the php framework Laravel (<a target="_blank" href="https://github.com/panzerama/NSC-AD410-TIP-GROUP1">repo code</a>). On my <a target="_blank" href="https://github.com/mitchthompson" >GitHub profile</a> I also have several smaller projects I've used as a way to learn new technologies like React and Redux. </p>
+      
         
         <div class="row projects1">
             

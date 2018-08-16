@@ -78,6 +78,9 @@ p {
     .navbar-custom {
     }
 }
+.navbar {
+    margin-bottom: 0;
+}
 .navbar.navbar-default.navbar-custom li a {
     color:white;
     font-family: "Molot", sans-serif;
@@ -113,7 +116,8 @@ p {
 }
 .jumbotron {
     background-color:white;
-    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-top:20px;
 }
 .boxes {
     border-top: solid 2px #2C3E50;
@@ -140,7 +144,19 @@ a.hire:hover, a.hire:visited, a.hire:link, a.hire:active {
     color: #90D5FD;
 }
 .intro {
-    padding-top: 25px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url('../images/intro-background.jpg');
+        background-size: cover;
+}
+.intro-section h2{
+     color:#fff;
+}
+.intro-section p{
+     color:#fff;
 }
 .about h2 {
     margin-top: 0;
