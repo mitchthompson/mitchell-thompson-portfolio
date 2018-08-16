@@ -130,7 +130,9 @@ p {
     text-decoration: none !important;;
 }
 a.hire {
-    background-color: #2C3E50;
+    /*background-color: #2C3E50;*/
+    background-color: #202020;
+    border-color:#303030;
     margin-top:6%;
     border-radius: 0;
     text-decoration: none !important;
@@ -153,10 +155,11 @@ a.hire:hover, a.hire:visited, a.hire:link, a.hire:active {
         background-size: cover;
 }
 .intro-section-box {
-    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
-    background: rgba(128, 128, 128, 0.8);
+    /*background: rgb(204, 204, 204);*/
+    background: rgba(64,64,64, 0.7);
     padding:3%;
     margin-left: -1%;
+    border:solid white 0.5px;
 }
 .intro-section h2{
      color:#fff;
@@ -165,7 +168,7 @@ a.hire:hover, a.hire:visited, a.hire:link, a.hire:active {
      color:#fff;
 }
 .intro-section a {
-    color: #000040;
+    color:#C8C8C8;
 }
 .about h2 {
     margin-top: 0;
